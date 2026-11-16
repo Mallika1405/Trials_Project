@@ -1,0 +1,3699 @@
+{
+ "generatedAt": "2026-10-14",
+ "sources": {
+  "UniProt": "rest.uniprot.org",
+  "ChEMBL": "ChEMBL_37",
+  "PubChem": "pubchem.ncbi.nlm.nih.gov",
+  "PDB": "data.rcsb.org",
+  "AlphaFold DB": "alphafold.ebi.ac.uk",
+  "ClinicalTrials.gov": "clinicaltrials.gov API v2"
+ },
+ "genes": [
+  {
+   "id": "mmpR5",
+   "name": "mmpR5",
+   "locusTag": "Rv0678",
+   "aliases": [
+    "P425_00707"
+   ],
+   "proteinName": "HTH-type transcriptional regulator MmpR5",
+   "uniprot": "I6Y8F7",
+   "organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+   "function": "Controls the expression level of the Mmps2-MmpL2, MmpS4-MmpL4, and MmpS5-MmpL5 transport systems. Also controls its own expression. Acts by binding directly to the promoter regions",
+   "length": 165,
+   "structure": {
+    "kind": "experimental",
+    "source": "PDB",
+    "id": "4NB5",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.641 Å",
+    "length": 165
+   },
+   "mutations": [],
+   "compoundIds": []
+  },
+  {
+   "id": "rpoB",
+   "name": "rpoB",
+   "locusTag": "Rv0667",
+   "aliases": [
+    "MTCI376.08c"
+   ],
+   "proteinName": "DNA-directed RNA polymerase subunit beta",
+   "uniprot": "P9WGY9",
+   "organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+   "function": "DNA-dependent RNA polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates",
+   "length": 1178,
+   "structure": {
+    "kind": "experimental",
+    "source": "PDB",
+    "id": "8CWT",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.35 Å",
+    "length": 1178
+   },
+   "mutations": [],
+   "compoundIds": [
+    "chembl1909658",
+    "chembl1911296",
+    "chembl1911286",
+    "chembl1911306",
+    "chembl1911298",
+    "chembl1911289"
+   ]
+  },
+  {
+   "id": "katG",
+   "name": "katG",
+   "locusTag": "Rv1908c",
+   "aliases": [
+    "MTCY180.10"
+   ],
+   "proteinName": "Catalase-peroxidase",
+   "uniprot": "P9WIE5",
+   "organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+   "function": "Bifunctional enzyme with both catalase and broad-spectrum peroxidase activity, oxidizing various electron donors including NADP(H) (PubMed:18178143, PubMed:9006925). Protects M.tuberculosis against toxic reactive oxygen species (ROS) including hydrogen peroxide as well as organic peroxides and thus contributes to its survival within host macrophages by countering the phagocyte oxidative burst (PubMed:15165233, PubMed:8658136). Also displays efficient peroxynitritase activity, which may help the bacterium to persist in macrophages (PubMed:10080924)",
+   "length": 740,
+   "structure": {
+    "kind": "experimental",
+    "source": "PDB",
+    "id": "8U3P",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.79 Å",
+    "length": 740
+   },
+   "mutations": [],
+   "compoundIds": []
+  },
+  {
+   "id": "mmpL3",
+   "name": "mmpL3",
+   "locusTag": "Rv0206c",
+   "aliases": [
+    "MTCY08D5.01c",
+    "MTV033.14c"
+   ],
+   "proteinName": "Trehalose monomycolate exporter MmpL3",
+   "uniprot": "P9WJV5",
+   "organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+   "function": "Transports trehalose monomycolate (TMM) to the cell wall. Flips TMM across the inner membrane (PubMed:22252828, PubMed:22344175). Membrane potential is not required for this function. Transports probably phosphatidylethanolamine (PE) as well. Binds specifically both TMM and PE, but not trehalose dimycolate (TDM). Also binds diacylglycerol (DAG) and other phospholipids, including phosphatidylglycerol (PG), phosphatidylinositol (PI), and cardiolipin (CDL). Contributes to membrane potential, cell wall composition, antibiotic susceptibility and fitness (By similarity). Could also be part of a heme-iron acquisition system (PubMed:21383189)",
+   "length": 944,
+   "structure": {
+    "kind": "experimental",
+    "source": "PDB",
+    "id": "7NVH",
+    "method": "ELECTRON MICROSCOPY",
+    "resolution": "3 Å",
+    "length": 944
+   },
+   "mutations": [],
+   "compoundIds": []
+  },
+  {
+   "id": "inhA",
+   "name": "inhA",
+   "locusTag": "Rv1484",
+   "aliases": [
+    "MTCY277.05"
+   ],
+   "proteinName": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "uniprot": "P9WGR1",
+   "organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+   "function": "Enoyl-ACP reductase of the type II fatty acid syntase (FAS-II) system, which is involved in the biosynthesis of mycolic acids, a major component of mycobacterial cell walls (PubMed:25227413). Catalyzes the NADH-dependent reduction of the double bond of 2-trans-enoyl-[acyl-carrier protein], an essential step in the fatty acid elongation cycle of the FAS-II pathway (PubMed:7599116). Shows preference for long-chain fatty acyl thioester substrates (>C16), and can also use 2-trans-enoyl-CoAs as alternative substrates (PubMed:7599116). The mycobacterial FAS-II system utilizes the products of the FAS-I system as primers to extend fatty acyl chain lengths up to C56, forming the meromycolate chain that serves as the precursor for final mycolic acids (PubMed:25227413)",
+   "length": 269,
+   "structure": {
+    "kind": "experimental",
+    "source": "PDB",
+    "id": "4TRO",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.4 Å",
+    "length": 269
+   },
+   "mutations": [],
+   "compoundIds": [
+    "chembl1236225",
+    "chembl4177124",
+    "chembl2311561",
+    "isoniazid",
+    "chembl4174518",
+    "chembl4162007",
+    "chembl263646",
+    "rifampin"
+   ]
+  },
+  {
+   "id": "atpE",
+   "name": "atpE",
+   "locusTag": "Rv1305",
+   "aliases": [
+    "MTCY373.25"
+   ],
+   "proteinName": "ATP synthase subunit c",
+   "uniprot": "P9WPS1",
+   "organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+   "function": "F(1)F(0) ATP synthase produces ATP from ADP in the presence of a proton or sodium gradient. F-type ATPases consist of two structural domains, F(1) containing the extramembraneous catalytic core and F(0) containing the membrane proton channel, linked together by a central stalk and a peripheral stalk. During catalysis, ATP synthesis in the catalytic domain of F(1) is coupled via a rotary mechanism of the central stalk subunits to proton translocation",
+   "length": 81,
+   "structure": {
+    "kind": "experimental",
+    "source": "PDB",
+    "id": "8J0S",
+    "method": "ELECTRON MICROSCOPY",
+    "resolution": "2.58 Å",
+    "length": 81
+   },
+   "mutations": [],
+   "compoundIds": [
+    "chembl3754673",
+    "chembl3753969",
+    "chembl3754231",
+    "chembl4101131",
+    "chembl3752547",
+    "chembl3753028"
+   ]
+  }
+ ],
+ "compounds": [
+  {
+   "id": "bedaquiline",
+   "name": "Bedaquiline",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL376488",
+   "pubchemCid": "5388906",
+   "synonyms": [
+    "Bedaquilina",
+    "R-207910",
+    "R207910",
+    "TMC-207",
+    "TMC207"
+   ],
+   "formula": "C32H31BrN2O2",
+   "molecularWeight": "555.52 g/mol",
+   "smiles": "COc1nc2ccc(Br)cc2cc1[C@@H](c1ccccc1)[C@@](O)(CCN(C)C)c1cccc2ccccc12",
+   "inchikey": "QUIJNHUBAXPXFS-XLJNKUFUSA-N",
+   "geneIds": [],
+   "trialIds": [
+    "NCT04179500",
+    "NCT03828201",
+    "NCT02754765",
+    "NCT03032367",
+    "NCT06081361",
+    "NCT00992069",
+    "NCT03942354",
+    "NCT05824871",
+    "NCT04207112",
+    "NCT07126639",
+    "NCT03338621",
+    "NCT02589782",
+    "NCT05221502"
+   ]
+  },
+  {
+   "id": "clofazimine",
+   "name": "Clofazimine",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL1292",
+   "pubchemCid": "2794",
+   "synonyms": [
+    "Chlofazimine",
+    "Clofazimina",
+    "Clofaziminum",
+    "Colfazimine",
+    "G 30320",
+    "G-30320",
+    "G30320",
+    "Lamprene",
+    "NSC-141046"
+   ],
+   "formula": "C27H22Cl2N4",
+   "molecularWeight": "473.41 g/mol",
+   "smiles": "CC(C)/N=c1\\cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1",
+   "inchikey": "WDQPAMHFFCXSNU-BGABXYSRSA-N",
+   "geneIds": [],
+   "trialIds": [
+    "NCT03828201",
+    "NCT02754765",
+    "NCT06081361",
+    "NCT03942354",
+    "NCT04207112",
+    "NCT07126639",
+    "NCT02589782"
+   ]
+  },
+  {
+   "id": "rifampin",
+   "name": "Rifampin",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL374478",
+   "pubchemCid": "135398735",
+   "synonyms": [
+    "Abrifam",
+    "BA 411661E",
+    "BA 41166/E",
+    "BA-41166/E",
+    "BA-41166E",
+    "Eremfat",
+    "L-5103",
+    "L-5103 LEPETIT",
+    "L-5103-LEPETIT",
+    "NIH-10782",
+    "NSC-113926",
+    "Rifa"
+   ],
+   "formula": "C43H58N4O12",
+   "molecularWeight": "822.95 g/mol",
+   "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CCN(C)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C",
+   "inchikey": "JQXXHWHPUNPDRT-WLSIYKJHSA-N",
+   "geneIds": [
+    "inhA"
+   ],
+   "trialIds": [
+    "NCT05454345",
+    "NCT05221502"
+   ]
+  },
+  {
+   "id": "isoniazid",
+   "name": "Isoniazid",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL64",
+   "pubchemCid": "3767",
+   "synonyms": [
+    "Armazid",
+    "Armazide",
+    "Atcotibine",
+    "Cedin",
+    "Cotinazin",
+    "Dianicotyl",
+    "Dow-isoniazid",
+    "Eralon",
+    "Ertuban",
+    "Hidrasonil",
+    "Hydrazid",
+    "Hyzyd"
+   ],
+   "formula": "C6H7N3O",
+   "molecularWeight": "137.14 g/mol",
+   "smiles": "NNC(=O)c1ccncc1",
+   "inchikey": "QRXWMOHMRWLFEY-UHFFFAOYSA-N",
+   "geneIds": [
+    "inhA"
+   ],
+   "trialIds": [
+    "NCT04311502",
+    "NCT02477852",
+    "NCT05047055",
+    "NCT05454345",
+    "NCT06191692",
+    "NCT05221502"
+   ]
+  },
+  {
+   "id": "pretomanid",
+   "name": "Pretomanid",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL227875",
+   "pubchemCid": "456199",
+   "synonyms": [
+    "Dovprela (previously pretomanid fgk)",
+    "PA 824",
+    "PA-824",
+    "PA824"
+   ],
+   "formula": "C14H12F3N3O5",
+   "molecularWeight": "359.26 g/mol",
+   "smiles": "O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1ccc(OC(F)(F)F)cc1)C2",
+   "inchikey": "ZLHZLMOSPGACSZ-NSHDSACASA-N",
+   "geneIds": [],
+   "trialIds": [
+    "NCT04179500",
+    "NCT03942354",
+    "NCT04207112",
+    "NCT03896750",
+    "NCT03338621",
+    "NCT05586230",
+    "NCT02589782"
+   ]
+  },
+  {
+   "id": "delamanid",
+   "name": "Delamanid",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL218650",
+   "pubchemCid": "6480466",
+   "synonyms": [
+    "Deltyba",
+    "Opc 67683",
+    "OPC-67683",
+    "OPC67683"
+   ],
+   "formula": "C25H25F3N4O6",
+   "molecularWeight": "534.49 g/mol",
+   "smiles": "C[C@]1(COc2ccc(N3CCC(Oc4ccc(OC(F)(F)F)cc4)CC3)cc2)Cn2cc([N+](=O)[O-])nc2O1",
+   "inchikey": "XDAOLTSRNUSPPH-XMMPIXPASA-N",
+   "geneIds": [],
+   "trialIds": [
+    "NCT03828201",
+    "NCT02754765",
+    "NCT06081361",
+    "NCT02619994",
+    "NCT01859923",
+    "NCT05221502"
+   ]
+  },
+  {
+   "id": "linezolid",
+   "name": "Linezolid",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL126",
+   "pubchemCid": "441401",
+   "synonyms": [
+    "Linezolide",
+    "Pnu-100766",
+    "U-100,766",
+    "U-100766",
+    "Zyvox"
+   ],
+   "formula": "C16H20FN3O4",
+   "molecularWeight": "337.35 g/mol",
+   "smiles": "CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1",
+   "inchikey": "TYZROVQLWOKYKF-ZDUSSCGKSA-N",
+   "geneIds": [],
+   "trialIds": [
+    "NCT03828201",
+    "NCT02754765",
+    "NCT06081361",
+    "NCT03942354",
+    "NCT04207112",
+    "NCT07126639",
+    "NCT02589782",
+    "NCT02619994",
+    "NCT03537495"
+   ]
+  },
+  {
+   "id": "ethambutol",
+   "name": "Ethambutol",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL44884",
+   "pubchemCid": "14052",
+   "synonyms": [
+    "Etambutol"
+   ],
+   "formula": "C10H24N2O2",
+   "molecularWeight": "204.31 g/mol",
+   "smiles": "CC[C@@H](CO)NCCN[C@@H](CC)CO",
+   "inchikey": "AEUTYOVWOVBAKS-UWVGGRQHSA-N",
+   "geneIds": [],
+   "trialIds": [
+    "NCT06081361",
+    "NCT04311502",
+    "NCT02477852",
+    "NCT05047055",
+    "NCT05454345"
+   ]
+  },
+  {
+   "id": "pyrazinamide",
+   "name": "Pyrazinamide",
+   "entityClass": "clinical_drug",
+   "tagline": "Approved drug (ChEMBL max phase 4)",
+   "chemblId": "CHEMBL614",
+   "pubchemCid": "1046",
+   "synonyms": [
+    "Aldinamid",
+    "Aldinamide",
+    ".alpha.-pyrazinamide",
+    "D-50",
+    "Eprazin",
+    "Farmizina",
+    "Isopas",
+    "MK-56",
+    "Novamid",
+    "NSC-14911",
+    "Pirazimida",
+    "Pirazinamid"
+   ],
+   "formula": "C5H5N3O",
+   "molecularWeight": "123.11 g/mol",
+   "smiles": "NC(=O)c1cnccn1",
+   "inchikey": "IPEHBUMCGVEMRF-UHFFFAOYSA-N",
+   "geneIds": [],
+   "trialIds": [
+    "NCT04179500",
+    "NCT02754765",
+    "NCT06081361",
+    "NCT04311502",
+    "NCT02477852",
+    "NCT05047055",
+    "NCT05454345",
+    "NCT03338621",
+    "NCT02619994"
+   ]
+  },
+  {
+   "id": "chembl1909658",
+   "name": "Rifampin s",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL1909658",
+   "pubchemCid": "136098617",
+   "synonyms": [],
+   "formula": "C43H56N4O12",
+   "molecularWeight": "820.94 g/mol",
+   "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(c3C2=O)C(=O)C(/C=N/N2CCN(C)CC2)=C(NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C4=O",
+   "inchikey": "IHHAOHNZEKYBLG-WLSIYKJHSA-N",
+   "geneIds": [
+    "rpoB"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl1911296",
+   "name": "CHEMBL1911296",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL1911296",
+   "pubchemCid": "57403202",
+   "synonyms": [],
+   "formula": "C38H47NO11S",
+   "molecularWeight": "725.86 g/mol",
+   "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(SC)c4c(c3C2=O)C(=O)C=C(NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C4=O",
+   "inchikey": "PGHIXEPHCCERKM-NTEBMBBHSA-N",
+   "geneIds": [
+    "rpoB"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl1911286",
+   "name": "CHEMBL1911286",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL1911286",
+   "pubchemCid": "57401461",
+   "synonyms": [],
+   "formula": "C44H51NO14S",
+   "molecularWeight": "849.95 g/mol",
+   "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(OS(=O)(=O)c4ccc(C)cc4)c4c(c3C2=O)C(=O)C=C(NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C4=O",
+   "inchikey": "AQTBWWXWPLHUCJ-PQBMYWSQSA-N",
+   "geneIds": [
+    "rpoB"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl1911306",
+   "name": "CHEMBL1911306",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL1911306",
+   "pubchemCid": "",
+   "synonyms": [],
+   "formula": "C45H60N6O11",
+   "molecularWeight": "861.01 g/mol",
+   "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(c4c5c(nn(CCO)c5c3C)C(=C(/C=N/N3CCN(C)CC3)C4=O)NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C2=O",
+   "inchikey": "BIMRVYNVLJSJLS-OYQVMGNMSA-N",
+   "geneIds": [
+    "rpoB"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl1911298",
+   "name": "CHEMBL1911298",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL1911298",
+   "pubchemCid": "136098618",
+   "synonyms": [],
+   "formula": "C49H60N4O14S",
+   "molecularWeight": "961.10 g/mol",
+   "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(OS(=O)(=O)c4ccccc4)c4c(c3C2=O)C(=O)C(/C=N/N2CCN(C)CC2)=C(NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C4=O",
+   "inchikey": "UOTGKXGTRZBYOI-JBUUYRGMSA-N",
+   "geneIds": [
+    "rpoB"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl1911289",
+   "name": "CHEMBL1911289",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL1911289",
+   "pubchemCid": "57390968",
+   "synonyms": [],
+   "formula": "C39H50N2O11",
+   "molecularWeight": "722.83 g/mol",
+   "smiles": "CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(N(C)C)c4c(c3C2=O)C(=O)C=C(NC(=O)/C(C)=C\\C=C\\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C4=O",
+   "inchikey": "FUQSHUGNBWCEGF-VGHITOEESA-N",
+   "geneIds": [
+    "rpoB"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl1236225",
+   "name": "CHEMBL1236225",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL1236225",
+   "pubchemCid": "16727110",
+   "synonyms": [],
+   "formula": "C19H24O2",
+   "molecularWeight": "284.40 g/mol",
+   "smiles": "CCCCCCc1ccc(Oc2ccccc2C)c(O)c1",
+   "inchikey": "KSWHNTPMGZKIOB-UHFFFAOYSA-N",
+   "geneIds": [
+    "inhA"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl4177124",
+   "name": "CHEMBL4177124",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL4177124",
+   "pubchemCid": "73659178",
+   "synonyms": [],
+   "formula": "C18H21BrO2",
+   "molecularWeight": "349.27 g/mol",
+   "smiles": "CCCCCCc1ccc(Oc2ccccc2Br)c(O)c1",
+   "inchikey": "XMFJZZCTDKMLKQ-UHFFFAOYSA-N",
+   "geneIds": [
+    "inhA"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl2311561",
+   "name": "CHEMBL2311561",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL2311561",
+   "pubchemCid": "71717931",
+   "synonyms": [],
+   "formula": "C27H32N8O15P2",
+   "molecularWeight": "770.54 g/mol",
+   "smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=C[C@H]1C(=O)c1ccncc1",
+   "inchikey": "GZPCDCKLGMEXOS-MXUAFQDZSA-N",
+   "geneIds": [
+    "inhA"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl4174518",
+   "name": "CHEMBL4174518",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL4174518",
+   "pubchemCid": "5289619",
+   "synonyms": [],
+   "formula": "C27H31N8O15P2+",
+   "molecularWeight": "769.53 g/mol",
+   "smiles": "NC(=O)c1c[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)ccc1C(=O)c1ccncc1",
+   "inchikey": "SURAWYIAXPVHGO-XDBKRARRSA-O",
+   "geneIds": [
+    "inhA"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl4162007",
+   "name": "CHEMBL4162007",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL4162007",
+   "pubchemCid": "86302364",
+   "synonyms": [],
+   "formula": "C18H21ClO2",
+   "molecularWeight": "304.82 g/mol",
+   "smiles": "CCCCCCc1ccc(Oc2ccccc2Cl)c(O)c1",
+   "inchikey": "QXCNLBOWURGQPC-UHFFFAOYSA-N",
+   "geneIds": [
+    "inhA"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl263646",
+   "name": "CHEMBL263646",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL263646",
+   "pubchemCid": "44450058",
+   "synonyms": [],
+   "formula": "C20H23NO5",
+   "molecularWeight": "357.41 g/mol",
+   "smiles": "CCCCCCc1ccc(Oc2cccc(NC(=O)C(=O)O)c2)c(O)c1",
+   "inchikey": "MKPCTUMPQBVAEP-UHFFFAOYSA-N",
+   "geneIds": [
+    "inhA"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl3754673",
+   "name": "CHEMBL3754673",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL3754673",
+   "pubchemCid": "127029233",
+   "synonyms": [],
+   "formula": "C36H35N3O3",
+   "molecularWeight": "557.69 g/mol",
+   "smiles": "COc1nc2ccccc2cc1C(c1cc2ccccc2nc1OC)C(O)(CCN(C)C)c1cccc2ccccc12",
+   "inchikey": "FSIFTUHBPHJAAD-UHFFFAOYSA-N",
+   "geneIds": [
+    "atpE"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl3753969",
+   "name": "CHEMBL3753969",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL3753969",
+   "pubchemCid": "127029234",
+   "synonyms": [],
+   "formula": "C36H36BrN3O3",
+   "molecularWeight": "638.61 g/mol",
+   "smiles": "CN(C)CCC(O)(c1cccc(Br)c1)C1c2cc3ccccc3nc2OCC/C=C\\CCOc2nc3ccccc3cc21",
+   "inchikey": "GHGVFXRKINKBLR-ARJAWSKDSA-N",
+   "geneIds": [
+    "atpE"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl3754231",
+   "name": "CHEMBL3754231",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL3754231",
+   "pubchemCid": "127026669",
+   "synonyms": [],
+   "formula": "C32H32BrN3O3",
+   "molecularWeight": "586.53 g/mol",
+   "smiles": "COc1nc2ccccc2cc1C(c1cc2ccccc2nc1OC)C(O)(CCN(C)C)c1ccc(Br)cc1",
+   "inchikey": "QDRJSIIKIUXVRU-UHFFFAOYSA-N",
+   "geneIds": [
+    "atpE"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl4101131",
+   "name": "CHEMBL4101131",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL4101131",
+   "pubchemCid": "132277783",
+   "synonyms": [],
+   "formula": "C20H19N3O3",
+   "molecularWeight": "349.39 g/mol",
+   "smiles": "O=c1c(NCc2ccccn2)c(-c2ccc(N3CCOCC3)cc2)c1=O",
+   "inchikey": "PPDXHFIWMLVDEJ-UHFFFAOYSA-N",
+   "geneIds": [
+    "atpE"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl3752547",
+   "name": "CHEMBL3752547",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL3752547",
+   "pubchemCid": "127026354",
+   "synonyms": [],
+   "formula": "C36H36BrN3O3",
+   "molecularWeight": "638.61 g/mol",
+   "smiles": "C=CCOc1nc2ccccc2cc1C(c1cc2ccccc2nc1OCC=C)C(O)(CCN(C)C)c1cccc(Br)c1",
+   "inchikey": "VBVMGRCNUWHODZ-UHFFFAOYSA-N",
+   "geneIds": [
+    "atpE"
+   ],
+   "trialIds": []
+  },
+  {
+   "id": "chembl3753028",
+   "name": "CHEMBL3753028",
+   "entityClass": "experimental_compound",
+   "tagline": "Experimental compound — not an approved drug",
+   "chemblId": "CHEMBL3753028",
+   "pubchemCid": "127026668",
+   "synonyms": [],
+   "formula": "C36H35N3O3",
+   "molecularWeight": "557.69 g/mol",
+   "smiles": "COc1nc2ccccc2cc1C(c1cc2ccccc2nc1OC)C(O)(CCN(C)C)c1ccc2ccccc2c1",
+   "inchikey": "IXLSBDXBCUSOJH-UHFFFAOYSA-N",
+   "geneIds": [
+    "atpE"
+   ],
+   "trialIds": []
+  }
+ ],
+ "activities": [
+  {
+   "id": "chembl-act-15105453",
+   "compoundId": "bedaquiline",
+   "target": "Mycolicibacterium smegmatis",
+   "type": "IC50",
+   "value": 1,
+   "units": "nM",
+   "assay": "CHEMBL3386591",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3351608",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3351608",
+    "note": "Assay CHEMBL3386591: Inhibition of oxidative phosphorylation in Mycobacterium smegmatis membrane vesicles assessed as inhibition of NADH driven ATP synthesis by luciferin/luciferase assay"
+   }
+  },
+  {
+   "id": "chembl-act-3419566",
+   "compoundId": "bedaquiline",
+   "target": "Putative uncharacterized protein atpE",
+   "type": "IC50",
+   "value": 2.5,
+   "units": "nM",
+   "assay": "CHEMBL1226232",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1221200",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1221200",
+    "note": "Assay CHEMBL1226232: Inhibition of Mycobacterium smegmatis ATCC 607 ATP synthase subunit c-mediated ATP synthesis after 60 mins by luminometry"
+   }
+  },
+  {
+   "id": "chembl-act-16623466",
+   "compoundId": "bedaquiline",
+   "target": "Unchecked",
+   "type": "IC50",
+   "value": 5,
+   "units": "nM",
+   "assay": "CHEMBL3820114",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3817834",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3817834",
+    "note": "Assay CHEMBL3820114: Inhibition of ATP synthase in Mycobacterium smegmatis inverted membrane vesicles assessed as reduction in oxidative phosphorylation of ADP incubated for 60 mins in presence of NADH by luciferin/luciferase coupled reporter gene assay"
+   }
+  },
+  {
+   "id": "chembl-act-18142178",
+   "compoundId": "bedaquiline",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC90",
+   "value": 10,
+   "units": "nM",
+   "assay": "CHEMBL4031543",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4028867",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4028867",
+    "note": "Assay CHEMBL4031543: Antitubercular activity against rifampicin resistant Mycobacterium tuberculosis H37Rv ATCC 35838 after 24 hrs by MABA method"
+   }
+  },
+  {
+   "id": "chembl-act-5094455",
+   "compoundId": "bedaquiline",
+   "target": "Putative uncharacterized protein atpE",
+   "type": "IC50",
+   "value": 10,
+   "units": "nM",
+   "assay": "CHEMBL1638239",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1629639",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1629639",
+    "note": "Assay CHEMBL1638239: Inhibition of Mycobacterium smegmatis MC2 155 ATP synthase subunit c-mediated ATP production"
+   }
+  },
+  {
+   "id": "chembl-act-18142168",
+   "compoundId": "bedaquiline",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC90",
+   "value": 10,
+   "units": "nM",
+   "assay": "CHEMBL4031533",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4028867",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4028867",
+    "note": "Assay CHEMBL4031533: Antitubercular activity against isoniazid resistant Mycobacterium tuberculosis H37Rv ATCC 35822 after 24 hrs by MABA method"
+   }
+  },
+  {
+   "id": "chembl-act-18004105",
+   "compoundId": "clofazimine",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 125,
+   "units": "nM",
+   "assay": "CHEMBL4002976",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4002566",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4002566",
+    "note": "Assay CHEMBL4002976: Antimycobacterial activity against multidrug-resistant Mycobacterium tuberculosis 7357/1998 after 14 days by micromethod"
+   }
+  },
+  {
+   "id": "chembl-act-15027570",
+   "compoundId": "clofazimine",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 125,
+   "units": "nM",
+   "assay": "CHEMBL3375164",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3297661",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3297661",
+    "note": "Assay CHEMBL3375164: Antimycobacterial activity against multidrug-resistant Mycobacterium tuberculosis Praha 4 after 7 days by micromethod"
+   }
+  },
+  {
+   "id": "chembl-act-18004069",
+   "compoundId": "clofazimine",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 125,
+   "units": "nM",
+   "assay": "CHEMBL4002974",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4002566",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4002566",
+    "note": "Assay CHEMBL4002974: Antimycobacterial activity against multidrug-resistant Mycobacterium tuberculosis 9449/2007 after 14 days by micromethod"
+   }
+  },
+  {
+   "id": "chembl-act-18004087",
+   "compoundId": "clofazimine",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 125,
+   "units": "nM",
+   "assay": "CHEMBL4002975",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4002566",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4002566",
+    "note": "Assay CHEMBL4002975: Antimycobacterial activity against multidrug-resistant Mycobacterium tuberculosis 234/2005 after 14 days by micromethod"
+   }
+  },
+  {
+   "id": "chembl-act-18004051",
+   "compoundId": "clofazimine",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 250,
+   "units": "nM",
+   "assay": "CHEMBL4002973",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4002566",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4002566",
+    "note": "Assay CHEMBL4002973: Antimycobacterial activity against multidrug-resistant Mycobacterium tuberculosis Praha 131 after 14 days by micromethod"
+   }
+  },
+  {
+   "id": "chembl-act-15027571",
+   "compoundId": "clofazimine",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 250,
+   "units": "nM",
+   "assay": "CHEMBL3375162",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3297661",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3297661",
+    "note": "Assay CHEMBL3375162: Antimycobacterial activity against multidrug-resistant Mycobacterium tuberculosis Praha 1 after 7 days by micromethod"
+   }
+  },
+  {
+   "id": "chembl-act-25679205",
+   "compoundId": "rifampin",
+   "target": "Staphylococcus aureus",
+   "type": "MIC",
+   "value": -100,
+   "units": "nM",
+   "assay": "CHEMBL5379326",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5375995",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5375995",
+    "note": "Assay CHEMBL5379326: Antibacterial activity against Staphylococcus aureus assessed as bacterial growth inhibition incubated for 24 hrs by broth microdilution method"
+   }
+  },
+  {
+   "id": "chembl-act-12481064",
+   "compoundId": "rifampin",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 0.24,
+   "units": "nM",
+   "assay": "CHEMBL3062805",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3045530",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3045530",
+    "note": "Assay CHEMBL3062805: Antimicrobial activity against Mycobacterium tuberculosis H37Rv by agar dilution method"
+   }
+  },
+  {
+   "id": "chembl-act-12414748",
+   "compoundId": "rifampin",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 0.24,
+   "units": "nM",
+   "assay": "CHEMBL3048984",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3046007",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3046007",
+    "note": "Assay CHEMBL3048984: Antimycobacterial activity against Mycobacterium tuberculosis H37Rv by agar dilution method"
+   }
+  },
+  {
+   "id": "chembl-act-19277127",
+   "compoundId": "rifampin",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 0.5,
+   "units": "nM",
+   "assay": "CHEMBL4408329",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4406824",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4406824",
+    "note": "Assay CHEMBL4408329: Antimycobacterial activity against Mycobacterium tuberculosis H37Ra ITM-M006710 after 48 hr by resazurin dye based microdilution method"
+   }
+  },
+  {
+   "id": "chembl-act-18312022",
+   "compoundId": "rifampin",
+   "target": "Mycobacterium tuberculosis",
+   "type": "IC50",
+   "value": 0.72,
+   "units": "nM",
+   "assay": "CHEMBL4132278",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4130372",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4130372",
+    "note": "Assay CHEMBL4132278: Antitubercular activity against Mycobacterium tuberculosis H37Rv ATCC 27294 expressing luxABCDE operon incubated for 10 days under hypoxic conditions followed by incubation under aerobic conditions for 28 hrs by LORA method"
+   }
+  },
+  {
+   "id": "chembl-act-18456874",
+   "compoundId": "rifampin",
+   "target": "Mycobacterium tuberculosis",
+   "type": "IC50",
+   "value": 0.72,
+   "units": "nM",
+   "assay": "CHEMBL4179594",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4177599",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4177599",
+    "note": "Assay CHEMBL4179594: Antitubercular activity against Mycobacterium tuberculosis H37Rv ATCC 27294 after 10 days under low oxygen condition followed by incubation under aerobic condition for 28 hrs by LORA"
+   }
+  },
+  {
+   "id": "chembl-act-25707970",
+   "compoundId": "isoniazid",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 0.75,
+   "units": "nM",
+   "assay": "CHEMBL5387410",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5385869",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5385869",
+    "note": "Assay CHEMBL5387410: Binding affinity to wild type Mycobacterium tuberculosis InhA assessed as inhibition constant in presence of NADH, DD-CoA by spectrophotometry based analysis"
+   }
+  },
+  {
+   "id": "chembl-act-12409892",
+   "compoundId": "isoniazid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 0.8,
+   "units": "nM",
+   "assay": "CHEMBL3049648",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3044987",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3044987",
+    "note": "Assay CHEMBL3049648: Antitubercular activity against Mycobacterium tuberculosis H37Rv after 5 days by microplate alamar blue assay"
+   }
+  },
+  {
+   "id": "chembl-act-5102721",
+   "compoundId": "isoniazid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 0.8,
+   "units": "nM",
+   "assay": "CHEMBL1640058",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1629462",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1629462",
+    "note": "Assay CHEMBL1640058: Antitubercular activity against Mycobacterium tuberculosis by agar dilution method"
+   }
+  },
+  {
+   "id": "chembl-act-5218625",
+   "compoundId": "isoniazid",
+   "target": "Dihydrofolate reductase",
+   "type": "Ki",
+   "value": 1,
+   "units": "nM",
+   "assay": "CHEMBL1677337",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1671707",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1671707",
+    "note": "Assay CHEMBL1677337: Inhibition of Mycobacterium tuberculosis dihydrofolate reductase"
+   }
+  },
+  {
+   "id": "chembl-act-16496425",
+   "compoundId": "isoniazid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 1.45,
+   "units": "nM",
+   "assay": "CHEMBL3776594",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3774391",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3774391",
+    "note": "Assay CHEMBL3776594: Antimycobacterial activity against Mycobacterium tuberculosis clinical isolate assessed as growth inhibition after 5 days by microplate Alamar blue assay"
+   }
+  },
+  {
+   "id": "chembl-act-12481077",
+   "compoundId": "isoniazid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 2.04,
+   "units": "nM",
+   "assay": "CHEMBL3062805",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3045530",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3045530",
+    "note": "Assay CHEMBL3062805: Antimicrobial activity against Mycobacterium tuberculosis H37Rv by agar dilution method"
+   }
+  },
+  {
+   "id": "chembl-act-12722882",
+   "compoundId": "pretomanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC90",
+   "value": 40,
+   "units": "nM",
+   "assay": "CHEMBL2354056",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL2346611",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL2346611",
+    "note": "Assay CHEMBL2354056: Antitubercular activity against Mycobacterium tuberculosis H37Rv after 21 days by spectrophotometric analysis"
+   }
+  },
+  {
+   "id": "chembl-act-19135717",
+   "compoundId": "pretomanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 50,
+   "units": "nM",
+   "assay": "CHEMBL4375673",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4373711",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4373711",
+    "note": "Assay CHEMBL4375673: Antitubercular activity against Mycobacterium tuberculosis H37Rv"
+   }
+  },
+  {
+   "id": "chembl-act-3465272",
+   "compoundId": "pretomanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 70,
+   "units": "nM",
+   "assay": "CHEMBL1250672",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1250546",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1250546",
+    "note": "Assay CHEMBL1250672: Antibacterial activity against isoniazid-resistant Mycobacterium tuberculosis after 7 days by microplate alamar blue assay"
+   }
+  },
+  {
+   "id": "chembl-act-22422327",
+   "compoundId": "pretomanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 80,
+   "units": "nM",
+   "assay": "CHEMBL4673798",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4673200",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4673200",
+    "note": "Assay CHEMBL4673798: Antitubercular activity against Mycobacterium tuberculosis H37Rv ATCC 27294 cultured in 7H12 media assessed as reduction in bacterial growth incubated for 7 days by resazurin dye fluorescence based assay"
+   }
+  },
+  {
+   "id": "chembl-act-16661029",
+   "compoundId": "pretomanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 100,
+   "units": "nM",
+   "assay": "CHEMBL3832772",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3832761",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3832761",
+    "note": "Assay CHEMBL3832772: AntiMycobacterium tuberculosis activity 1-week 7H9/cholesterol/BSA/Tx  MIC (uM)"
+   }
+  },
+  {
+   "id": "chembl-act-3465283",
+   "compoundId": "pretomanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 100,
+   "units": "nM",
+   "assay": "CHEMBL1250673",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1250546",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1250546",
+    "note": "Assay CHEMBL1250673: Antibacterial activity against streptomycin-resistant Mycobacterium tuberculosis after 7 days by microplate alamar blue assay"
+   }
+  },
+  {
+   "id": "chembl-act-23226128",
+   "compoundId": "delamanid",
+   "target": "Leishmania donovani",
+   "type": "IC50",
+   "value": 0.12,
+   "units": "nM",
+   "assay": "CHEMBL4825492",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4823323",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4823323",
+    "note": "Assay CHEMBL4825492: Antileishmanial activity against Leishmania donovani LdBOB derived from MHOM/SD/62/1 S-CL2D promastigotes overexpressing NTR2 incubated for 72 hrs by resazurin dye based assay"
+   }
+  },
+  {
+   "id": "chembl-act-23226034",
+   "compoundId": "delamanid",
+   "target": "Leishmania donovani",
+   "type": "IC50",
+   "value": 1.5,
+   "units": "nM",
+   "assay": "CHEMBL4825484",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4823323",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4823323",
+    "note": "Assay CHEMBL4825484: Antileishmanial activity against wild type Leishmania donovani promastigotes incubated for 72 hrs by resazurin dye based assay"
+   }
+  },
+  {
+   "id": "chembl-act-15027568",
+   "compoundId": "delamanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 20,
+   "units": "nM",
+   "assay": "CHEMBL3365751",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3297661",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3297661",
+    "note": "Assay CHEMBL3365751: Antimycobacterial activity against Mycobacterium tuberculosis H37Rv"
+   }
+  },
+  {
+   "id": "chembl-act-19135716",
+   "compoundId": "delamanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 23,
+   "units": "nM",
+   "assay": "CHEMBL4375673",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4373711",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4373711",
+    "note": "Assay CHEMBL4375673: Antitubercular activity against Mycobacterium tuberculosis H37Rv"
+   }
+  },
+  {
+   "id": "chembl-act-18004724",
+   "compoundId": "delamanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 23,
+   "units": "nM",
+   "assay": "CHEMBL4003031",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4002566",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4002566",
+    "note": "Assay CHEMBL4003031: Antimycobacterial activity against Mycobacterium tuberculosis after 14 days"
+   }
+  },
+  {
+   "id": "chembl-act-16531733",
+   "compoundId": "delamanid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 33,
+   "units": "nM",
+   "assay": "CHEMBL3789231",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3784956",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3784956",
+    "note": "Assay CHEMBL3789231: Antitubercular activity against Mycobacterium tuberculosis after 7 days by microplate Alamar blue assay"
+   }
+  },
+  {
+   "id": "chembl-act-25882785",
+   "compoundId": "linezolid",
+   "target": "Clostridioides difficile",
+   "type": "IC50",
+   "value": 110,
+   "units": "nM",
+   "assay": "CHEMBL5516257",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5512670",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5512670",
+    "note": "Assay CHEMBL5516257: Antibacterial activity against Clostridioides difficile assessed as inhibition of bacterial growth preincubated for 10 mins followed by Nano-Glo substrate and ATP addition and measured for 90 mins by NanoBRET assay"
+   }
+  },
+  {
+   "id": "chembl-act-4925497",
+   "compoundId": "linezolid",
+   "target": "Streptokinase A",
+   "type": "EC50",
+   "value": 158,
+   "units": "nM",
+   "assay": "CHEMBL1614064",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1201862",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1201862",
+    "note": "Assay CHEMBL1614064: PUBCHEM_BIOASSAY: Luminescence Microorganism-Based Dose Confirmation HTS to Identify Inhibitors of Streptokinase Promotor Activity. (Class of assay: confirmatory) [Related pubchem assays: 1677 (Project Summary), 1662 (Primary HTS)]"
+   }
+  },
+  {
+   "id": "chembl-act-3766512",
+   "compoundId": "linezolid",
+   "target": "Streptococcus sp. 'group A'",
+   "type": "EC50",
+   "value": 170,
+   "units": "nM",
+   "assay": "CHEMBL1613983",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1201862",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1201862",
+    "note": "Assay CHEMBL1613983: PUBCHEM_BIOASSAY: Luminescence Microorganism-Based Dose Confirmation HTS to Identify Compounds Cytotoxic to SK(-)GAS Group A Streptococcus. (Class of assay: confirmatory) [Related pubchem assays: 1677 (Project Summary), 1662 (Primary HTS)]"
+   }
+  },
+  {
+   "id": "chembl-act-25679186",
+   "compoundId": "linezolid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 200,
+   "units": "nM",
+   "assay": "CHEMBL5379322",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5375995",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5375995",
+    "note": "Assay CHEMBL5379322: Antibacterial activity against Mycobacterium tuberculosis H37Rv assessed as bacterial growth inhibition incubated for 24 hrs by broth microdilution method"
+   }
+  },
+  {
+   "id": "chembl-act-25679188",
+   "compoundId": "linezolid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 200,
+   "units": "nM",
+   "assay": "CHEMBL5379323",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5375995",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5375995",
+    "note": "Assay CHEMBL5379323: Antibacterial activity against Mycobacterium tuberculosis H37Ra assessed as bacterial growth inhibition incubated for 24 hrs by broth microdilution method"
+   }
+  },
+  {
+   "id": "chembl-act-25731007",
+   "compoundId": "linezolid",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC90",
+   "value": 390,
+   "units": "nM",
+   "assay": "CHEMBL5393265",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5390314",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5390314",
+    "note": "Assay CHEMBL5393265: Anti-mycobacterial activity against Isoniazid resistant Mycobacterium tuberculosis clinical isolate harbouring inhA mutant assessed as bacterial growth inhibition incubated for 7 days by microplate alamar blue assay"
+   }
+  },
+  {
+   "id": "chembl-act-12409891",
+   "compoundId": "ethambutol",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 7.6,
+   "units": "nM",
+   "assay": "CHEMBL3049648",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3044987",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3044987",
+    "note": "Assay CHEMBL3049648: Antitubercular activity against Mycobacterium tuberculosis H37Rv after 5 days by microplate alamar blue assay"
+   }
+  },
+  {
+   "id": "chembl-act-5102722",
+   "compoundId": "ethambutol",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 7.6,
+   "units": "nM",
+   "assay": "CHEMBL1640058",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1629462",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1629462",
+    "note": "Assay CHEMBL1640058: Antitubercular activity against Mycobacterium tuberculosis by agar dilution method"
+   }
+  },
+  {
+   "id": "chembl-act-12414750",
+   "compoundId": "ethambutol",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 15.31,
+   "units": "nM",
+   "assay": "CHEMBL3048984",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3046007",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3046007",
+    "note": "Assay CHEMBL3048984: Antimycobacterial activity against Mycobacterium tuberculosis H37Rv by agar dilution method"
+   }
+  },
+  {
+   "id": "chembl-act-12481078",
+   "compoundId": "ethambutol",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 15.31,
+   "units": "nM",
+   "assay": "CHEMBL3062805",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3045530",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3045530",
+    "note": "Assay CHEMBL3062805: Antimicrobial activity against Mycobacterium tuberculosis H37Rv by agar dilution method"
+   }
+  },
+  {
+   "id": "chembl-act-19213210",
+   "compoundId": "ethambutol",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 110,
+   "units": "nM",
+   "assay": "CHEMBL4393429",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4392856",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4392856",
+    "note": "Assay CHEMBL4393429: Antimycobacterial activity against Mycobacterium tuberculosis H37Rv assessed as inhibition of parasite growth incubated for 6 days by REMA method"
+   }
+  },
+  {
+   "id": "chembl-act-25945816",
+   "compoundId": "ethambutol",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 300,
+   "units": "nM",
+   "assay": "CHEMBL5535665",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5532693",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5532693",
+    "note": "Assay CHEMBL5535665: Antibacterial activity against Mycobacterium tuberculosis"
+   }
+  },
+  {
+   "id": "chembl-act-25005123",
+   "compoundId": "pyrazinamide",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 3120,
+   "units": "nM",
+   "assay": "CHEMBL5234516",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5233247",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5233247",
+    "note": "Assay CHEMBL5234516: Anti-tubercular activity against Mycobacterium tuberculosis H37Rv strain"
+   }
+  },
+  {
+   "id": "chembl-act-18231806",
+   "compoundId": "pyrazinamide",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 3120,
+   "units": "nM",
+   "assay": "CHEMBL4050246",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4049401",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4049401",
+    "note": "Assay CHEMBL4050246: Antimycobacterial activity against Mycobacterium tuberculosis H37Rv ATCC 27294 after 5 days by microplate alamar blue assay"
+   }
+  },
+  {
+   "id": "chembl-act-24841339",
+   "compoundId": "pyrazinamide",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 3120,
+   "units": "nM",
+   "assay": "CHEMBL5145634",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5143581",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5143581",
+    "note": "Assay CHEMBL5145634: Antimycobacterial activity against Mycobacterium tuberculosis H37Rv"
+   }
+  },
+  {
+   "id": "chembl-act-1876066",
+   "compoundId": "pyrazinamide",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 8000,
+   "units": "nM",
+   "assay": "CHEMBL904124",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1142926",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1142926",
+    "note": "Assay CHEMBL904124: Antimycobacterial activity against Mycobacterium tuberculosis 331/88 after 14 days"
+   }
+  },
+  {
+   "id": "chembl-act-1876104",
+   "compoundId": "pyrazinamide",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 8000,
+   "units": "nM",
+   "assay": "CHEMBL904128",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1142926",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1142926",
+    "note": "Assay CHEMBL904128: Antimycobacterial activity against Mycobacterium tuberculosis 331/88 after 21 days"
+   }
+  },
+  {
+   "id": "chembl-act-19436018",
+   "compoundId": "pyrazinamide",
+   "target": "Mycobacterium tuberculosis",
+   "type": "MIC",
+   "value": 25300,
+   "units": "nM",
+   "assay": "CHEMBL4430442",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4428093",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4428093",
+    "note": "Assay CHEMBL4430442: Antituberculosis activity against Mycobacterium tuberculosis H37Rv after 5 days by MABA method"
+   }
+  },
+  {
+   "id": "chembl-act-7849182",
+   "compoundId": "chembl1909658",
+   "geneId": "rpoB",
+   "target": "DNA-directed RNA polymerase subunit beta",
+   "type": "IC50",
+   "value": 13,
+   "units": "nM",
+   "assay": "CHEMBL1914226",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1909569",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1909569",
+    "note": "Assay CHEMBL1914226: Inhibition of wild type Mycobacterium tuberculosis RNA polymerase after 10 mins using ribo green staining by rolling circle transcription assay"
+   }
+  },
+  {
+   "id": "chembl-act-7849181",
+   "compoundId": "chembl1911296",
+   "geneId": "rpoB",
+   "target": "DNA-directed RNA polymerase subunit beta",
+   "type": "IC50",
+   "value": 15,
+   "units": "nM",
+   "assay": "CHEMBL1914226",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1909569",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1909569",
+    "note": "Assay CHEMBL1914226: Inhibition of wild type Mycobacterium tuberculosis RNA polymerase after 10 mins using ribo green staining by rolling circle transcription assay"
+   }
+  },
+  {
+   "id": "chembl-act-7849177",
+   "compoundId": "chembl1911286",
+   "geneId": "rpoB",
+   "target": "DNA-directed RNA polymerase subunit beta",
+   "type": "IC50",
+   "value": 21,
+   "units": "nM",
+   "assay": "CHEMBL1914226",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1909569",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1909569",
+    "note": "Assay CHEMBL1914226: Inhibition of wild type Mycobacterium tuberculosis RNA polymerase after 10 mins using ribo green staining by rolling circle transcription assay"
+   }
+  },
+  {
+   "id": "chembl-act-7849184",
+   "compoundId": "chembl1911306",
+   "geneId": "rpoB",
+   "target": "DNA-directed RNA polymerase subunit beta",
+   "type": "IC50",
+   "value": 139,
+   "units": "nM",
+   "assay": "CHEMBL1914226",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1909569",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1909569",
+    "note": "Assay CHEMBL1914226: Inhibition of wild type Mycobacterium tuberculosis RNA polymerase after 10 mins using ribo green staining by rolling circle transcription assay"
+   }
+  },
+  {
+   "id": "chembl-act-7849183",
+   "compoundId": "chembl1911298",
+   "geneId": "rpoB",
+   "target": "DNA-directed RNA polymerase subunit beta",
+   "type": "IC50",
+   "value": 142,
+   "units": "nM",
+   "assay": "CHEMBL1914226",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1909569",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1909569",
+    "note": "Assay CHEMBL1914226: Inhibition of wild type Mycobacterium tuberculosis RNA polymerase after 10 mins using ribo green staining by rolling circle transcription assay"
+   }
+  },
+  {
+   "id": "chembl-act-7849179",
+   "compoundId": "chembl1911289",
+   "geneId": "rpoB",
+   "target": "DNA-directed RNA polymerase subunit beta",
+   "type": "IC50",
+   "value": 503,
+   "units": "nM",
+   "assay": "CHEMBL1914226",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1909569",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1909569",
+    "note": "Assay CHEMBL1914226: Inhibition of wild type Mycobacterium tuberculosis RNA polymerase after 10 mins using ribo green staining by rolling circle transcription assay"
+   }
+  },
+  {
+   "id": "chembl-act-18390345",
+   "compoundId": "chembl1236225",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 0.022,
+   "units": "nM",
+   "assay": "CHEMBL4147588",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4145513",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4145513",
+    "note": "Assay CHEMBL4147588: Inhibition of Mycobacterium tuberculosis InhA using trans-2-dodecenoyl-CoA as substrate"
+   }
+  },
+  {
+   "id": "chembl-act-13825810",
+   "compoundId": "chembl1236225",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "IC50",
+   "value": 22,
+   "units": "nM",
+   "assay": "CHEMBL3089494",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3085704",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3085704",
+    "note": "Assay CHEMBL3089494: Inhibition of wild type Mycobacterium tuberculosis inhA"
+   }
+  },
+  {
+   "id": "chembl-act-18390305",
+   "compoundId": "chembl4177124",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 0.2,
+   "units": "nM",
+   "assay": "CHEMBL4147581",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4145513",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4145513",
+    "note": "Assay CHEMBL4147581: Inhibition of Mycobacterium tuberculosis InhA"
+   }
+  },
+  {
+   "id": "chembl-act-18390306",
+   "compoundId": "chembl4177124",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "IC50",
+   "value": 10,
+   "units": "nM",
+   "assay": "CHEMBL4147581",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4145513",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4145513",
+    "note": "Assay CHEMBL4147581: Inhibition of Mycobacterium tuberculosis InhA"
+   }
+  },
+  {
+   "id": "chembl-act-12637105",
+   "compoundId": "chembl2311561",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 0.75,
+   "units": "nM",
+   "assay": "CHEMBL2319463",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL2311442",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL2311442",
+    "note": "Assay CHEMBL2319463: Inhibition of Mycobacterium tuberculosis InhA"
+   }
+  },
+  {
+   "id": "chembl-act-13825813",
+   "compoundId": "chembl2311561",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 0.75,
+   "units": "nM",
+   "assay": "CHEMBL3089494",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3085704",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3085704",
+    "note": "Assay CHEMBL3089494: Inhibition of wild type Mycobacterium tuberculosis inhA"
+   }
+  },
+  {
+   "id": "chembl-act-25707969",
+   "compoundId": "isoniazid",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 16,
+   "units": "nM",
+   "assay": "CHEMBL5387409",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5385869",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5385869",
+    "note": "Assay CHEMBL5387409: Binding affinity to wild type Mycobacterium tuberculosis InhA assessed as inhibition constant for formation of enzyme-inhibitor complex in presence of NADH and DD-CoA by spectrophotometry based analysis"
+   }
+  },
+  {
+   "id": "chembl-act-18390290",
+   "compoundId": "chembl4174518",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 0.75,
+   "units": "nM",
+   "assay": "CHEMBL4147578",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4145513",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4145513",
+    "note": "Assay CHEMBL4147578: Inhibition of Mycobacterium tuberculosis InhA using trans-2-decenoyl-CoA as substrate by spectrophotometric analysis"
+   }
+  },
+  {
+   "id": "chembl-act-18390291",
+   "compoundId": "chembl4174518",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 2.1,
+   "units": "nM",
+   "assay": "CHEMBL4147579",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4145513",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4145513",
+    "note": "Assay CHEMBL4147579: Inhibition of Mycobacterium tuberculosis InhA I21V mutant using trans-2-decenoyl-CoA as substrate by spectrophotometric analysis"
+   }
+  },
+  {
+   "id": "chembl-act-18390334",
+   "compoundId": "chembl4174518",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 5,
+   "units": "nM",
+   "assay": "CHEMBL4147583",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4145513",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4145513",
+    "note": "Assay CHEMBL4147583: Inhibition of Mycobacterium tuberculosis InhA T2A mutant"
+   }
+  },
+  {
+   "id": "chembl-act-18390309",
+   "compoundId": "chembl4162007",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 0.96,
+   "units": "nM",
+   "assay": "CHEMBL4147581",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL4145513",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL4145513",
+    "note": "Assay CHEMBL4147581: Inhibition of Mycobacterium tuberculosis InhA"
+   }
+  },
+  {
+   "id": "chembl-act-2169672",
+   "compoundId": "chembl263646",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "Ki",
+   "value": 1,
+   "units": "nM",
+   "assay": "CHEMBL936676",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL1143085",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL1143085",
+    "note": "Assay CHEMBL936676: Inhibition of Mycobacterium tuberculosis H37RV InhA"
+   }
+  },
+  {
+   "id": "chembl-act-15041284",
+   "compoundId": "rifampin",
+   "geneId": "inhA",
+   "target": "Enoyl-[acyl-carrier-protein] reductase [NADH]",
+   "type": "IC50",
+   "value": 30,
+   "units": "nM",
+   "assay": "CHEMBL3366098",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3351699",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3351699",
+    "note": "Assay CHEMBL3366098: Inhibition of Mycobacterium tuberculosis InhA using NADH and dodecyl coA substrate by LC-MS/MS method"
+   }
+  },
+  {
+   "id": "chembl-act-16438295",
+   "compoundId": "chembl3754673",
+   "geneId": "atpE",
+   "target": "ATP synthase",
+   "type": "IC50",
+   "value": 1,
+   "units": "nM",
+   "assay": "CHEMBL3757365",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3751774",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3751774",
+    "note": "Assay CHEMBL3757365: Inhibition of Mycobacterium tuberculosis ATP synthase"
+   }
+  },
+  {
+   "id": "chembl-act-16438296",
+   "compoundId": "chembl3753969",
+   "geneId": "atpE",
+   "target": "ATP synthase",
+   "type": "IC50",
+   "value": 10,
+   "units": "nM",
+   "assay": "CHEMBL3757365",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3751774",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3751774",
+    "note": "Assay CHEMBL3757365: Inhibition of Mycobacterium tuberculosis ATP synthase"
+   }
+  },
+  {
+   "id": "chembl-act-16438294",
+   "compoundId": "chembl3754231",
+   "geneId": "atpE",
+   "target": "ATP synthase",
+   "type": "IC50",
+   "value": 10,
+   "units": "nM",
+   "assay": "CHEMBL3757365",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3751774",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3751774",
+    "note": "Assay CHEMBL3757365: Inhibition of Mycobacterium tuberculosis ATP synthase"
+   }
+  },
+  {
+   "id": "chembl-act-25726402",
+   "compoundId": "chembl4101131",
+   "geneId": "atpE",
+   "target": "ATP synthase",
+   "type": "IC50",
+   "value": 30,
+   "units": "nM",
+   "assay": "CHEMBL5392054",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL5390255",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL5390255",
+    "note": "Assay CHEMBL5392054: Inhibition of Mycobacterium tuberculosis H37Rv ATP synthase by luminometer analysis"
+   }
+  },
+  {
+   "id": "chembl-act-16438290",
+   "compoundId": "chembl3752547",
+   "geneId": "atpE",
+   "target": "ATP synthase",
+   "type": "IC50",
+   "value": 30,
+   "units": "nM",
+   "assay": "CHEMBL3757365",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3751774",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3751774",
+    "note": "Assay CHEMBL3757365: Inhibition of Mycobacterium tuberculosis ATP synthase"
+   }
+  },
+  {
+   "id": "chembl-act-16438293",
+   "compoundId": "chembl3753028",
+   "geneId": "atpE",
+   "target": "ATP synthase",
+   "type": "IC50",
+   "value": 30,
+   "units": "nM",
+   "assay": "CHEMBL3757365",
+   "provenance": {
+    "source": "ChEMBL",
+    "version": "ChEMBL_37",
+    "externalId": "CHEMBL3751774",
+    "url": "https://www.ebi.ac.uk/chembl/explore/document/CHEMBL3751774",
+    "note": "Assay CHEMBL3757365: Inhibition of Mycobacterium tuberculosis ATP synthase"
+   }
+  }
+ ],
+ "trials": [
+  {
+   "nctId": "NCT04518228",
+   "title": "Pharmacokinetic Properties of Antiretroviral and Anti-Tuberculosis Drugs During Pregnancy and Postpartum",
+   "phase": "N/A",
+   "status": "Terminated",
+   "enrollment": 205,
+   "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+   "studyType": "OBSERVATIONAL",
+   "start": "2021-09-01",
+   "end": "2025-07-10",
+   "conditions": [
+    "HIV",
+    "Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Bictegravir (BIC)"
+    },
+    {
+     "name": "Tenofovir alafenamide (TAF)"
+    },
+    {
+     "name": "Long-acting injectable formulation of cabotegravir (CAB LA)"
+    },
+    {
+     "name": "Dolutegravir (DTG)"
+    },
+    {
+     "name": "Atazanavir/ritonavir (ATV/r)"
+    },
+    {
+     "name": "Darunavir/ritonavir (DRV/r)"
+    },
+    {
+     "name": "Lopinavir/ritonavir (LPV/r)"
+    },
+    {
+     "name": "Cobicistat"
+    },
+    {
+     "name": "Ritonavir"
+    },
+    {
+     "name": "First-Line TB Treatment"
+    },
+    {
+     "name": "Second-Line TB Treatment"
+    },
+    {
+     "name": "Doravirine (DOR)"
+    }
+   ],
+   "locations": [
+    "Los Angeles, United States",
+    "San Diego, United States",
+    "Aurora, United States",
+    "Fort Lauderdale, United States",
+    "Jacksonville, United States",
+    "Miami, United States",
+    "Atlanta, United States",
+    "Chicago, United States",
+    "Baltimore, United States",
+    "The Bronx, United States"
+   ],
+   "summary": "The purpose of this study was to evaluate the pharmacokinetic (PK) properties of antiretroviral (ARV) and anti-tuberculosis (TB) drugs administered during pregnancy and postpartum.",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT04179500",
+   "title": "A Trial to Evaluate the Male Reproductive Safety of Pretomanid in Adult Male Participants With Drug Resistant Pulmonary Tuberculosis",
+   "phase": "PHASE2",
+   "status": "Completed",
+   "enrollment": 26,
+   "sponsor": "Global Alliance for TB Drug Development",
+   "studyType": "INTERVENTIONAL",
+   "start": "2021-09-16",
+   "end": "2024-07-17",
+   "conditions": [
+    "Tuberculosis, Pulmonary",
+    "Tuberculosis, Multidrug-Resistant",
+    "Tuberculosis, MDR",
+    "Tuberculosis",
+    "Drug-Resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Pretomanid",
+     "compoundId": "pretomanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "moxifloxacin"
+    },
+    {
+     "name": "pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "Tbilisi, Georgia",
+    "Johannesburg, South Africa",
+    "Port Elizabeth, South Africa",
+    "Rustenburg, South Africa"
+   ],
+   "summary": "Pretomanid is being used in an antimicrobial combination regimen(s) to treat patients with pulmonary tuberculosis (TB). The primary purpose of the Male Reproductive Safety - \"BPaMZ/SEM\"- clinical study is to evaluate the potential effect of pretomanid on human testicular function whilst being used in a 26 weeks antimicrobial combination regimen consisting of bedaquiline (B) plus pretomanid (Pa) plus moxifloxacin (M) and pyrazinamide (Z) (BPaMZ).",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT05278988",
+   "title": "A Study of Ultrashort PRS Regimen V in the Treatment of MDR-TB",
+   "phase": "PHASE4",
+   "status": "Completed",
+   "enrollment": 60,
+   "sponsor": "Shanghai Pulmonary Hospital, Shanghai, China",
+   "studyType": "INTERVENTIONAL",
+   "start": "2021-04-01",
+   "end": "2024-10-30",
+   "conditions": [
+    "MDR-TB"
+   ],
+   "interventions": [
+    {
+     "name": "PRS Regimen V"
+    },
+    {
+     "name": "MDR-TB Treatment Regimen(WHO)"
+    }
+   ],
+   "locations": [
+    "Shanghai, China"
+   ],
+   "summary": "This is an exploratory, prospective, randomized, active control, and open label clinical trial to evaluate the efficacy and safety of 6-9 months treatment with the ultrashort PRS Regimen V.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT03828201",
+   "title": "Efficacy and Tolerability of Bedaquiline, Delamanid, Levofloxacin, Linezolid, and Clofazimine to Treat MDR-TB",
+   "phase": "PHASE2",
+   "status": "Active, not recruiting",
+   "enrollment": 271,
+   "sponsor": "Boston University",
+   "studyType": "INTERVENTIONAL",
+   "start": "2022-06-07",
+   "end": "2027-05",
+   "conditions": [
+    "Tuberculosis, Multidrug-Resistant"
+   ],
+   "interventions": [
+    {
+     "name": "Delamanid",
+     "compoundId": "delamanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Levofloxacin"
+    },
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Clofazimine",
+     "compoundId": "clofazimine",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "Silang, Philippines",
+    "Hanoi, Vietnam"
+   ],
+   "summary": "Multidrug-resistant tuberculosis (MDR-TB) is tuberculosis (TB) that is resistant to at least isoniazid and rifampicin, the two most important anti-TB drugs. It occurs in 3.6% of newly diagnosed TB patients in the world and 17% of patients who have been previously treated. In 2017, approximately 600,000 people were estimated to have acquired MDR-TB. However, only 25% of persons with MDR-TB were diagnosed and started on treatment, reflecting inadequate diagnostic capacity and lack of TB treatment capacity.\n\nIn this multicenter, randomized, partially blinded, four-arm, phase 2 study, the investigators will examine the efficacy and safety of an all-oral regimen of bedaquiline, delamanid, levofloxacin, linezolid, and clofazimine given for 16, 24, 32 or 40 weeks",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT02754765",
+   "title": "Evaluating Newly Approved Drugs for Multidrug-resistant TB",
+   "phase": "PHASE3",
+   "status": "Completed",
+   "enrollment": 754,
+   "sponsor": "Médecins Sans Frontières, France",
+   "studyType": "INTERVENTIONAL",
+   "start": "2016-12",
+   "end": "2023-06",
+   "conditions": [
+    "Tuberculosis, Multidrug-Resistant",
+    "Infection, Bacterial",
+    "Pulmonary Tuberculoses"
+   ],
+   "interventions": [
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Delamanid",
+     "compoundId": "delamanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Clofazimine",
+     "compoundId": "clofazimine",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Levofloxacin"
+    },
+    {
+     "name": "Moxifloxacin"
+    },
+    {
+     "name": "Linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Control arm MDR-TB regimen, consistent with WHO guidelines"
+    }
+   ],
+   "locations": [
+    "Tbilisi, Georgia",
+    "Pune, India",
+    "Almaty, Kazakhstan",
+    "Maseru, Lesotho",
+    "Karachi, Pakistan",
+    "Kotri, Pakistan",
+    "Lima, Peru",
+    "Khayelitsha, South Africa"
+   ],
+   "summary": "endTB Clinical Trial a Phase III, randomized, controlled, open-label, non-inferiority, multi-country trial evaluating the efficacy and safety of five new, all-oral, shortened regimens for multidrug-resistant tuberculosis (MDR-TB).",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT03032367",
+   "title": "TASK-002: Bioequivalence of Bedaquiline 400mg Administered in Crushed Form Compared to Tablet Form in Healthy Male and Female Adults Under Fed Conditions (BDQ Crush Study)",
+   "phase": "EARLY PHASE1",
+   "status": "Completed",
+   "enrollment": 24,
+   "sponsor": "International Maternal Pediatric Adolescent AIDS Clinical Trials Group",
+   "studyType": "INTERVENTIONAL",
+   "start": "2016-11-10",
+   "end": "2017-01-11",
+   "conditions": [
+    "Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "Bellville, South Africa"
+   ],
+   "summary": "This is a randomized, open-label, cross-over study comparing the bioequivalence of bedaquiline administered in whole tablet form versus bedaquiline administered in crushed (experimental) form in healthy adult volunteers.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT06081361",
+   "title": "Innovating Shorter, All- Oral, Precised, Individualized Treatment Regimen for Rifampicin Resistant Tuberculosis：Contezolid, Delamanid and Bedaquiline Cohort",
+   "phase": "PHASE3",
+   "status": "Active, not recruiting",
+   "enrollment": 186,
+   "sponsor": "Beijing Chest Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2023-12-22",
+   "end": "2026-12-31",
+   "conditions": [
+    "Pulmonary Tuberculosis",
+    "Rifampicin-resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Delamanid",
+     "compoundId": "delamanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Contezolid"
+    },
+    {
+     "name": "Levofloxacin"
+    },
+    {
+     "name": "Moxifloxacin"
+    },
+    {
+     "name": "Clofazimine",
+     "compoundId": "clofazimine",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Cycloserine"
+    },
+    {
+     "name": "Prothionamide"
+    },
+    {
+     "name": "Pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Para-Aminosalicylic Acid"
+    },
+    {
+     "name": "Ethambutol",
+     "compoundId": "ethambutol",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "Beijing, China",
+    "Changsha, China",
+    "Hefei, China",
+    "Jiamusi, China",
+    "Shandong, China",
+    "Xi'an, China",
+    "Xinxiang, China",
+    "Shijiazhuang, China",
+    "Harbin, China",
+    "Hulunbuir, China"
+   ],
+   "summary": "The goal of this clinical trial is to compare the efficacy and safety of a Contezolid and Delamanid-Containing short regimen to standard longer regimen in Rifampicin-resistant pulmonary tuberculosis (RR-TB). The main questions it aims to answer are:\n\n* Is the efficacy of short regimen non-inferior to standard regimen?\n* Is the short regimen safe enough to replace the standard regimen?\n\nParticipants will:\n\n* Be given with either short or standard regimen for RR-TB treatment\n* Be asked to complete the scheduled visit as planned.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT00992069",
+   "title": "Safety, Tolerability, and Effect of TMC207 and Efavirenz in Healthy Volunteers",
+   "phase": "PHASE1",
+   "status": "Completed",
+   "enrollment": 37,
+   "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+   "studyType": "INTERVENTIONAL",
+   "start": "2009-12",
+   "end": "2010-12",
+   "conditions": [
+    "Tuberculosis",
+    "HIV"
+   ],
+   "interventions": [
+    {
+     "name": "Efavirenz (EFV)"
+    },
+    {
+     "name": "TMC207",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "San Francisco, United States",
+    "Baltimore, United States",
+    "Chapel Hill, United States",
+    "Columbus, United States",
+    "Nashville, United States"
+   ],
+   "summary": "Common treatments for tuberculosis (TB) can interfere with certain antiretroviral (ARV) medications used to treat HIV. People whose immune systems are weakened by HIV infection are susceptible to TB, so it is important to find treatments for both that can be given in combination. This study will test the safety of combining a new medication for TB with an already approved HIV medication in healthy adults.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT03942354",
+   "title": "Patient-reported Experiences and Quality of Life Outcomes in the TB-PRACTECAL Clinical Trial",
+   "phase": "N/A",
+   "status": "Completed",
+   "enrollment": 137,
+   "sponsor": "Medecins Sans Frontieres, Netherlands",
+   "studyType": "OBSERVATIONAL",
+   "start": "2019-09-01",
+   "end": "2022-05-10",
+   "conditions": [
+    "Multidrug Resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Pretomanid",
+     "compoundId": "pretomanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Moxifloxacin"
+    },
+    {
+     "name": "Linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Clofazimine",
+     "compoundId": "clofazimine",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Directly observed therapy (DOT)"
+    }
+   ],
+   "locations": [
+    "Minsk, Belarus",
+    "Durban, South Africa",
+    "Pietermaritzburg, South Africa",
+    "Johannesburg, South Africa",
+    "Nukus, Uzbekistan",
+    "Tashkent, Uzbekistan"
+   ],
+   "summary": "PRACTECAL-PRO is a sub-study of a TB-PRACTECAL clinical trial for multidrug resistant Tuberculosis. It evaluates the effectiveness of TB-PRACTECAL interventions from the patient perspective in terms of their quality of life, shared decision making and satisfaction with services.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT05824871",
+   "title": "A Phase III Study of Oral Sudapyridine (WX-081) Tablets in Rifampicin-Resistant Pulmonary Tuberculosis Patients",
+   "phase": "PHASE3",
+   "status": "Recruiting",
+   "enrollment": 450,
+   "sponsor": "Shanghai Jiatan Pharmatech Co., Ltd",
+   "studyType": "INTERVENTIONAL",
+   "start": "2022-09-02",
+   "end": "2026-10-22",
+   "conditions": [
+    "Rifampin-Resistant Pulmonary Tuberculosis",
+    "Tuberculosis, Multidrug-Resistant (MDR-TB)"
+   ],
+   "interventions": [
+    {
+     "name": "Sudapyridine"
+    },
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "Beijing, China"
+   ],
+   "summary": "This is a multicenter, randomized, double-blind, active-controlled Phase III study to evaluate the efficacy and safety of Sudapyridine (WX-081) combined with a background regimen (BR) in patients with rifampicin-resistant pulmonary tuberculosis.\n\nApproximately 450 participants will be screened over a period of up to 2 weeks and randomized in a 2:1 ratio to receive either Sudapyridine or bedaquiline, in combination with placebo tablets and BR, for 24 weeks. After the treatment period, participants will enter a background regimen period up to Week 72, during which they will continue to receive BR.\n\nA subset of participants will be included in the C-QT sub-study to assess intensive PK sampling and 12-lead ECG evaluations on Day 1 pre-dose, Day 14, and Week 24.\n\nThe study aims to provide robust data to support the use of Sudapyridine as a treatment option for rifampicin-resistant pulmonary tuberculosis.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT04311502",
+   "title": "Clofazimine- and Rifapentine-Containing Treatment Shortening Regimens in Drug-Susceptible Tuberculosis: The CLO-FAST Study",
+   "phase": "PHASE2",
+   "status": "Terminated",
+   "enrollment": 104,
+   "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+   "studyType": "INTERVENTIONAL",
+   "start": "2021-11-05",
+   "end": "2025-06-24",
+   "conditions": [
+    "HIV",
+    "Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Rifapentine"
+    },
+    {
+     "name": "Rifampicin"
+    },
+    {
+     "name": "Isoniazid",
+     "compoundId": "isoniazid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Ethambutol",
+     "compoundId": "ethambutol",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Clofazimine loading dose"
+    },
+    {
+     "name": "Clofazimine 100 MG"
+    }
+   ],
+   "locations": [
+    "Port-au-Prince, Haiti",
+    "Pune, India",
+    "Lilongwe, Malawi",
+    "Blantyre, Malawi",
+    "Durban, South Africa",
+    "Harare, Zimbabwe"
+   ],
+   "summary": "The purpose of this study was to compare a 3-month rifapentine (RPT)/clofazimine (CFZ)-containing regimen with a CFZ loading dose with the 6-month standard of care (SOC) regimen for drug-susceptible (DS) tuberculosis (TB).",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT04207112",
+   "title": "Economic Evaluation of New MDR TB Regimens",
+   "phase": "PHASE2 / PHASE3",
+   "status": "Completed",
+   "enrollment": 73,
+   "sponsor": "Medecins Sans Frontieres, Netherlands",
+   "studyType": "INTERVENTIONAL",
+   "start": "2020-10-20",
+   "end": "2022-08-25",
+   "conditions": [
+    "Multi-drug Resistant Tuberculosis",
+    "Extensively Drug-Resistant Tuberculosis",
+    "Pulmonary Tuberculoses"
+   ],
+   "interventions": [
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Pretomanid",
+     "compoundId": "pretomanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Moxifloxacin"
+    },
+    {
+     "name": "Linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Clofazimine",
+     "compoundId": "clofazimine",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Standard Drugs"
+    }
+   ],
+   "locations": [
+    "Minsk, Belarus",
+    "Johannesburg, South Africa",
+    "Durban, South Africa",
+    "Pietermaritzburg, South Africa",
+    "Nukus, Uzbekistan",
+    "Tashkent, Uzbekistan"
+   ],
+   "summary": "The current treatment regimen for MDR-TB has poor outcomes and costs of treating MDR-TB are greater than treating drug susceptible TB, both in terms of health service and patient-incurred costs. Urgent action is needed to Identify short, effective and tolerable treatments for people with MDR-TB. The PRACTECAL economic evaluation sub-study (PRACTECAL-EE) will take place alongside the TB PRACTECAL trial, aiming to assess the costs to patients and providers of such regimens and to estimate the cost-effectiveness and poverty impact of an introduction of new MDR-TB regimens in the three countries participating in the main study.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT07126639",
+   "title": "A Study on the Short-course Treatment Regimen Containing Pretomanid for Drug-resistant Tuberculosis",
+   "phase": "NA",
+   "status": "Not yet recruiting",
+   "enrollment": 200,
+   "sponsor": "Wuhan Pulmonary Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2025-09-01",
+   "end": "2028-09-30",
+   "conditions": [
+    "Efficacy and Safety"
+   ],
+   "interventions": [
+    {
+     "name": "bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Pretomanid (Pa)"
+    },
+    {
+     "name": "linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Moxifloxacin (M)"
+    },
+    {
+     "name": "Delamanid (D)"
+    },
+    {
+     "name": "Levofloxacin"
+    },
+    {
+     "name": "clofazimine",
+     "compoundId": "clofazimine",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [],
+   "summary": "Rifampicin-resistant tuberculosis (RR-TB) is characterized by a long treatment course, high incidence of adverse reactions, low cure rate and high recurrence rate. This is related to the large number of drugs in the RR-TB treatment regimen, high incidence of adverse reactions and long treatment course, which leads to poor patient compliance. There is an urgent need for new, effective and safe short-course regimens for drug-resistant tuberculosis. A 6-month short-course oral regimen containing pretomanid was introduced in 2020. However, as pretomanid is not yet available in China, it has not been verified and promoted in China. Pretomanid is expected to be launched in China in 2025, and it is urgent to evaluate the application of the new short-course regimen containing pretomanid in the Chinese population. This study is a prospective, randomized, controlled clinical trial. It plans to include RR-TB patients aged ≥12 years in multiple domestic centers. Under the guidance of rapid molecular drug susceptibility test results, the experimental group will be treated with bedaquiline, pretomanid, linezolid and moxifloxacin for 6 months, while the control group will be treated with bedaquiline, delamanid, linezolid and levofloxacin or bedaquiline, delamanid, linezolid and clofazimine for 6 months, depending on the susceptibility to fluoroquinolones. For patients with unknown susceptibility to fluoroquinolones, bedaquiline, delamanid, linezolid, levofloxacin and clofazimine will be used for 6 months. The efficacy and safety will be evaluated to provide a basis for the introduction and implementation of new short-course regimens for RR-TB in China.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT04670120",
+   "title": "Early Bactericidal Activity Safety Pulmonary Tuberculosis Pyrifazimine (TBI-166)",
+   "phase": "PHASE2",
+   "status": "UNKNOWN",
+   "enrollment": 56,
+   "sponsor": "Beijing Chest Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2021-03-01",
+   "end": "2021-12-31",
+   "conditions": [
+    "Sensitive Pulmonary Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Pyrifazimine (TBI-166)"
+    }
+   ],
+   "locations": [
+    "Beijing, China",
+    "Zhengzhou, China",
+    "Jinan, China"
+   ],
+   "summary": "The new drug pyrifazimine (previous name: TBI-166) developed by the Institute of Materia Medica of the Chinese Academy of Medical Sciences which is Beijing Union Pharmaceutical Second Factory relied on is obtained by retaining the key skeleton of the lead drug clofazimine which can exert its efficacy and modification by introducing moderate polar groups structural. While the drug has strong activity against tuberculosis-sensitive bacteria and drug-resistant bacteria in vivo and in vitro, its pharmacokinetic properties and skin staining side effects have been significantly improved compared with the lead drugs, so that the drug can achieve the goal that reducing fat solubility, accelerating metabolism in the body, reducing skin staining and reducing side effects. In addition, pyrifazimine has a weak effect on liver drug enzymes, and is suitable for combined use in the clinical treatment of tuberculosis. The development of the drug is expected to provide a new method for the clinical treatment of drug-resistant tuberculosis, benefit patients, and produce good social benefits.\n\nIn November 2016, the new anti-drug-resistant tuberculosis drug pyrifazimine and its tablets (formerly chemical drug registration classification 1.1) obtained the drug clinical approval issued by the CFDA (batch number: 2016L10025/2016L09987), and were approved the clinical stage research that development of drug-resistant tuberculosis adaptation.\n\nIn accordance with relevant requirements of drug registration regulations, technical guidelines, etc., this project has completed the safety, tolerability, and pharmacokinetic clinical trials of a single dose of pyrifazimine tablets in healthy subjects, i.e. Phase Ia clinical trials test.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT02477852",
+   "title": "The Optimal Duration of Preoperative Anti-tuberculosis Treatment of Spinal Tuberculosis",
+   "phase": "PHASE4",
+   "status": "UNKNOWN",
+   "enrollment": 400,
+   "sponsor": "Beijing Chest Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2015-04",
+   "end": "2017-12",
+   "conditions": [
+    "Tuberculosis, Spinal"
+   ],
+   "interventions": [
+    {
+     "name": "Isoniazid",
+     "compoundId": "isoniazid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Rifampicin"
+    },
+    {
+     "name": "Ethambutol",
+     "compoundId": "ethambutol",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "Beijing, China"
+   ],
+   "summary": "The purpose of this study is to determine the better preoperative anti-tuberculosis treatment period of patients with spinal tuberculosis.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT01699633",
+   "title": "Rifampin and Nevirapine Interactions in Young Children",
+   "phase": "N/A",
+   "status": "UNKNOWN",
+   "enrollment": 58,
+   "sponsor": "The Miriam Hospital",
+   "studyType": "OBSERVATIONAL",
+   "start": "2012-10",
+   "end": "2017-05",
+   "conditions": [
+    "Tuberculosis",
+    "HIV"
+   ],
+   "interventions": [],
+   "locations": [
+    "Kumasi, Ghana"
+   ],
+   "summary": "Nevirapine is the preferred nonnucleoside reverse transcriptase inhibitor (NNRTI) for treatment of HIV in children younger than 3 years old who have tuberculosis (TB) coinfection. However, there is very limited data on the drug-drug interactions between rifampin and nevirapine in children of this age group. The purpose of this study is to determine the effect of rifampin-containing anti-TB treatment on the blood levels of nevirapine in young children with HIV and TB coinfection. Also, the study will find out whether checking the genetic makeup of a child could help to determine the appropriate dose of nevirapine in the setting of concomitant anti-TB treatment.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT00495326",
+   "title": "Comparison of Nevirapine and Efavirenz for the Treatment of HIV-TB Co-infected Patients (ANRS 12146 CARINEMO)",
+   "phase": "PHASE2 / PHASE3",
+   "status": "Completed",
+   "enrollment": 570,
+   "sponsor": "French National Agency for Research on AIDS and Viral Hepatitis",
+   "studyType": "INTERVENTIONAL",
+   "start": "2007-12",
+   "end": "2011-04",
+   "conditions": [
+    "Tuberculosis",
+    "Aids",
+    "Hiv Infections"
+   ],
+   "interventions": [
+    {
+     "name": "Nevirapine based therapy"
+    },
+    {
+     "name": "Efavirenz based therapy"
+    },
+    {
+     "name": "Rifampicin (RMP) Ethambutol (E) Isoniazid (H) Pyrazinamid (Z)"
+    }
+   ],
+   "locations": [
+    "Maputo, Mozambique"
+   ],
+   "summary": "The purpose of this study is to determine whether the use of Nevirapine in HIV patients already treated against tuberculosis by Rifampicin is as efficient and as well tolerated as Efavirenz.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT01158755",
+   "title": "Intensified Treatment Regimens for TB Meningitis: PK, PD and Tolerability Study",
+   "phase": "PHASE2",
+   "status": "Completed",
+   "enrollment": 60,
+   "sponsor": "Universitas Padjadjaran",
+   "studyType": "INTERVENTIONAL",
+   "start": "2010-10",
+   "end": "2012-06",
+   "conditions": [
+    "Meningitis, Tuberculous",
+    "Pharmacokinetics",
+    "Pharmacodynamics",
+    "Tolerability"
+   ],
+   "interventions": [
+    {
+     "name": "Moxifloxacin"
+    }
+   ],
+   "locations": [
+    "Bandung, Indonesia"
+   ],
+   "summary": "Tuberculous meningitis (TBM) is the most lethal form of tuberculosis infection, and is diagnosed in approximately 5-10% of TB patients. The incidence of TBM has increased considerably during the last decade, partly due to the HIV epidemic. Without treatment, virtually all patients with TB meningitis will die. With the current treatment regimens, TBM is fatal in approximately 30-50% of cases, and responsible for severe disability in a similar proportion of survivors.\n\nWorldwide, Indonesia the third highest case load of tuberculosis with an estimated 500,000 new patients / year. Representative data are lacking, but it is clear that TBM is a growing problem. For instance, in Hasan Sadikin Hospital, the top-referral hospital for West Java Province (population 40 million), Indonesia, 40-50 cases of TBM were treated yearly in the late 90's compared to approximately 100 in recent years.\n\nThere is very little evidence for the current treatment regimen for TBM, which dates back to the late 60's. Therefore, there is an urgent need to evaluate intensified treatment of TBM in randomized trials. We hypothesize that higher dose rifampicin, moxifloxacin (possibly also at high dose), or both will improve outcome of TBM. To determine the experimental regimen(s) which should be compared with current regimen in phase 3 trials, we want to evaluate pharmacokinetic aspects and toxicity of candidate regimens in a phase 2 clinical trial in 60 patients with TBM in Indonesia.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT01162486",
+   "title": "Pharmacokinetics, Safety and Tolerability of Escalating Rifapentine Doses in Healthy Volunteers",
+   "phase": "PHASE1",
+   "status": "Completed",
+   "enrollment": 37,
+   "sponsor": "Johns Hopkins University",
+   "studyType": "INTERVENTIONAL",
+   "start": "2010-04",
+   "end": "2011-03",
+   "conditions": [
+    "Tuberculosis",
+    "Tuberculosis, Pulmonary"
+   ],
+   "interventions": [
+    {
+     "name": "Rifampin & midazolam"
+    },
+    {
+     "name": "rifapentine & midazolam"
+    },
+    {
+     "name": "rifapentine & midazolam"
+    },
+    {
+     "name": "rifapentine & midazolam"
+    },
+    {
+     "name": "rifapentine and midazolam"
+    },
+    {
+     "name": "rifapentine and midazolam"
+    }
+   ],
+   "locations": [
+    "Baltimore, United States"
+   ],
+   "summary": "The aim of this study is to evaluate (1) the safety and tolerability of escalating doses of rifapentine (RPT) administered daily by oral; (2) the effect of increasing doses of RPT on cytochrome P450 isoform 3A (CYP3A) enzyme metabolizing activity, using single-dose midazolam (MDZ); and (3) the effect of increasing doses of RPT on autoinduction of RPT metabolism.",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT06403943",
+   "title": "Efficacy Safety BaiDiZiYin ShenQiYiFei Adjunctive Treatments Pulmonary Tuberculosis",
+   "phase": "PHASE4",
+   "status": "Recruiting",
+   "enrollment": 292,
+   "sponsor": "Beijing Chest Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2023-05-29",
+   "end": "2026-12-31",
+   "conditions": [
+    "Adjuvant",
+    "Treatment",
+    "Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "BaiDiZiYin Pill, ShenQiYiFei Pill"
+    },
+    {
+     "name": "Anti tuberculosis chemotherapy"
+    }
+   ],
+   "locations": [
+    "Beijing, China"
+   ],
+   "summary": "This study is designed to further strengthen the clinical application evidence of BaidiZiyin Pill and ShenqiYifei Pill in the treatment of tuberculosis. To be included in the initial treatment of pulmonary tuberculosis patients, on the basis of standardized Western medicine treatment, BaidiZiyin Pills and ShenqiYifei Pills will be used to evaluate the clinical efficacy and safety of their products.\n\n1. Evaluate the improvement of symptoms in the adjuvant treatment of newly treated pulmonary tuberculosis with BaidiZiyin Pill and ShenqiYifei Pill.\n2. Explore the sputum negative conversion time and sputum negative conversion rate of BaidiZiyin Pill and ShenqiYifei Pill as adjunctive treatments for newly treated pulmonary tuberculosis.\n3. Explore the protective effects of BaidiZiyin Pill and ShenqiYifei Pill on adverse reactions caused by chemotherapy.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT02114684",
+   "title": "Improving Retreatment Success (IMPRESS)",
+   "phase": "PHASE1 / PHASE2",
+   "status": "Completed",
+   "enrollment": 197,
+   "sponsor": "Centre for the AIDS Programme of Research in South Africa",
+   "studyType": "INTERVENTIONAL",
+   "start": "2013-11",
+   "end": "2017-07-17",
+   "conditions": [
+    "Recurrent Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "moxifloxacin"
+    }
+   ],
+   "locations": [
+    "Durban, South Africa"
+   ],
+   "summary": "This is an open label randomized controlled clinical trial comparing two regimens for treatment of smear-positive pulmonary TB, among patients previously treated for TB. The primary objective is to determine if a moxifloxacin-containing regimen, substituting moxifloxacin for ethambutol, of 24 weeks duration is superior to a control regimen of 24 weeks duration in improving treatment outcomes in patients with recurrent TB and shortens the duration of TB treatment.",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT05047055",
+   "title": "Four Months Moxifloxacin Containing Daily Regimen Study Among New Pulmonary Tuberculosis Patients",
+   "phase": "N/A",
+   "status": "Completed",
+   "enrollment": 550,
+   "sponsor": "Tuberculosis Research Centre, India",
+   "studyType": "OBSERVATIONAL",
+   "start": "2022-03-15",
+   "end": "2026-04-17",
+   "conditions": [
+    "Tuberculosis, Pulmonary"
+   ],
+   "interventions": [
+    {
+     "name": "Isoniazid",
+     "compoundId": "isoniazid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Rifampicin"
+    },
+    {
+     "name": "Pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Ethambutol",
+     "compoundId": "ethambutol",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Moxifloxacin"
+    }
+   ],
+   "locations": [
+    "Chennai, India"
+   ],
+   "summary": "The 4-month daily regimen containing moxifloxacin (2HRZEM 7 / 2HRM7) of ICMR-NIRT was studied in 321 sputum positive pulmonary TB patients in a randomised clinical trial. Of the 321, there were 96% with sputum smear grading of 2+/3+ and 80% with \\>2 zone involvement in the chest radiograph, The sputum culture conversion at the end of intensive phase was 94%, favourable response at the end of treatment of 92% and the TB recurrence rate was 4.1%. The regimen was safe and well tolerated.\n\nThe advantages of a 33% reduction in treatment duration are manifold in terms of financial and other administrative implications. As the next logical step investigators believe that the effectiveness of this shortened regimen that proved successful in our study needs to be tested in the field. Under NTEP the anti-TB drugs are offered as Fixed dose Combination (FDC).3 The HREZ intensive phase and HRE continuation phase FDC are administered to patients based on body weight category. If our proposed study proves successful, the addition of moxifloxacin tablet to the FDC of anti-TB drugs in the intensive and continuation phases of treatment would be feasible under TB program settings. Investigators propose to evaluate 4-month moxifloxacin containing daily regimen \\[2 months of HRZEM daily / 2 months of HREM daily (2 HRZEM 7 / 2HREM7)\\] in the treatment of newly diagnosed sputum smear positive pulmonary TB patients.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT05454345",
+   "title": "Sitafloxacin-containing Regimens for Shortening Tuberculosis Treatment",
+   "phase": "PHASE3",
+   "status": "UNKNOWN",
+   "enrollment": 620,
+   "sponsor": "First Affiliated Hospital of Zhejiang University",
+   "studyType": "INTERVENTIONAL",
+   "start": "2022-10-01",
+   "end": "2026-06-30",
+   "conditions": [
+    "Tuberculosis, Pulmonary"
+   ],
+   "interventions": [
+    {
+     "name": "Sitafloxacin"
+    },
+    {
+     "name": "SMZ/TMP"
+    },
+    {
+     "name": "Rifampin",
+     "compoundId": "rifampin",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Rifapentine"
+    },
+    {
+     "name": "Isoniazid",
+     "compoundId": "isoniazid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Ethambutol",
+     "compoundId": "ethambutol",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Moxifloxacin"
+    }
+   ],
+   "locations": [],
+   "summary": "This study is a clinical trial conducted to determine whether the sitafloxacin-containing three-month regimens are as effective as the standard six-month regimen and the four-month rifapentine and moxifloxacin regimen (substitution of rifapentine for rifampin and moxifloxacin for ethambutol) for treatment of pulmonary tuberculosis. The standard six-month regimen is two months of isoniazid, rifampin, ethambutol, and pyrazinamide, followed by four months of isoniazid and rifampin. The four-month regimen consists of two months of isoniazid, rifapentine, moxifloxacin, and pyrazinamide, followed by two months of isoniazid rifapentine and moxifloxacin. The new three-month tuberculosis treatment regimens are six weeks of isoniazid, rifapentine, Sitafloxacin, and pyrazinamide, followed by seven weeks of isoniazid, rifapentine, and Sitafloxacin, or 13 weeks of isoniazid, rifapentine, Sitafloxacin, and pyrazinamide. The primary research question is to evaluate the efficacy and safety of the 3 month Sitafloxacin-containing regimen, and to determine if it can shorten the treatment of drug-susceptible pulmonary tuberculosis while achieving non-inferiority in treatment success with the current 6 month and 4 month treatment regimens. Safety, side effects of Sitafloxacin for participants in the clinical trial are also assessed. Rates of cure, treatment success, recurrence, and cure (cure without recurrence) are determined for subgroup analysis in the standard six-month regimen group, the four-month regimen group, and two three-month regimen groups.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT06497465",
+   "title": "Dolutegravir/Lamivudine Dual Therapy for ART-naïve People With HIV and TB Receiving Rifampin-based TB Treatment",
+   "phase": "PHASE3",
+   "status": "Recruiting",
+   "enrollment": 150,
+   "sponsor": "Johns Hopkins University",
+   "studyType": "INTERVENTIONAL",
+   "start": "2025-09-18",
+   "end": "2029-01-31",
+   "conditions": [
+    "Tuberculosis",
+    "HIV"
+   ],
+   "interventions": [
+    {
+     "name": "Dolutegravir 50mg Tab"
+    },
+    {
+     "name": "Dolutegravir/Lamivudine 50 MG-300mg Oral Tablet [DOVATO]"
+    },
+    {
+     "name": "Dolutegravir plus Tenofovir disoproxil fumarate (TDF)/ lamivudine (3TC)"
+    }
+   ],
+   "locations": [
+    "Manaus, Brazil",
+    "Salvador, Brazil",
+    "Rio de Janeiro, Brazil",
+    "Natal, Brazil"
+   ],
+   "summary": "This will be a Phase IIIb Clinical Trial, an international multicenter, randomized, three-arm, non-comparative trial of efficacy, safety, and tolerability of the dual therapy regimen dolutegravir plus lamivudine either twice daily or DTG/3TC ( Dovato) in the morning +dolutegravir (DTG) in the evening, versus standard of care (SOC) twice-daily dolutegravir plus 2 once-daily Nucleoside reverse-transcriptase inhibitors (NRTIs) tenofovir disoproxil fumarate /lamivudine (TDF/3TC), among antiretroviral therapy (ART)-nave individuals with HIV-1 receiving rifampin-based TB therapy",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT02043314",
+   "title": "A Bioequivalence Study of Two Different Dosages of Isoniazid Tablet Formulations in Human Healthy Volunteers",
+   "phase": "PHASE1",
+   "status": "Completed",
+   "enrollment": 28,
+   "sponsor": "Oswaldo Cruz Foundation",
+   "studyType": "INTERVENTIONAL",
+   "start": "2008-10",
+   "end": "2009-03",
+   "conditions": [
+    "Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Isoniazida"
+    }
+   ],
+   "locations": [
+    "Campinas, Brazil"
+   ],
+   "summary": "The recommended treatment for latent tuberculosis infection for adults is a daily dose of isoniazid 300mg during 6 months. In Brazil, isoniazid was formulated as 100 mg tables. The treatment duration and the high pill burden compromised patient adherence to the treatment. The Brazilian National Programme for Tuberculosis requested the development of a new 300mg isoniazid formulation. The aim of the study is to compare the bioavailability of the isoniazid 300mg new formulation and three 100mg tablets of the reference formulation.\n\nThe study is a randomized, single dose, open label, fasting, two-phase crossover bioequivalence study with a wash out period of 7 days (\\>7 half-life) in 28 healthy human volunteers. For the determination of isoniazid in human plasma, the investigators developed and validated a sensitive, simple and rapid HPLC-MS/MS method.\n\nThis will support the strategy adopted by the Brazilian National Program for Tuberculosis for the treatment of latent tuberculosis. The new formulation will increase patients' adherence to the treatment and quality of life. Medical doctors in Brazil should become aware of the new formulation and the new treatment strategy in order to prescribe the right medication and avoid errors that could result in a high frequency of adverse events. Future research studies should evaluate pharmacovigilance, acceptability of the new tablet formulation and its impact on the cure rate.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT06191692",
+   "title": "1HP Versus 3HR in the Treatment of Tuberculosis Infection in Vietnam",
+   "phase": "PHASE3",
+   "status": "Withdrawn",
+   "enrollment": 0,
+   "sponsor": "Freundeskreis Für Internationale Tuberkulosehilfe e.V",
+   "studyType": "INTERVENTIONAL",
+   "start": "2024-11-01",
+   "end": "2025-12-30",
+   "conditions": [
+    "Tuberculosis Infection"
+   ],
+   "interventions": [
+    {
+     "name": "Isoniazid",
+     "compoundId": "isoniazid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Rifapentine"
+    },
+    {
+     "name": "Rifampicin"
+    }
+   ],
+   "locations": [
+    "Hanoi, Vietnam",
+    "Hà Nội, Vietnam"
+   ],
+   "summary": "Introduction: Tuberculosis (TB) infection is a key driver of the TB pandemic, with over 10.6 million people fell ill with TB disease in 2022. About one-quarter of the global population is estimated to be infected with TB bacteria. Around 5-10% of people with TB infection will develop active and contagious TB disease, which could be largely avoided if TB infection is identified and given effective preventative treatment, before progression to active disease. The long treatment of TB infection with regimens lasting from three to nine months is a significant barrier to treatment completion in individuals with a confirmed diagnosis of TB infection. Adapting a shorter regimen than the current regimens could lead to a higher treatment completion rate and increased uptake of preventative therapy for TB, as well as reduced side effects.\n\nMethods and analysis: An open-label, randomized clinical trial (1:1) will be performed in two study sites in Ha Noi, Vietnam (Vietnam National Lung Hospital and Ha Noi Lung Hospital). Adult household contacts (n=350) of people with new, bacteriologically-confirmed, pulmonary, drug-susceptible TB who initiate treatment will be invited to participate.\n\nAim: To compare the TB preventive therapy completion rates and adverse event incidence between a new one-month regimen (1HP) versus the current three-month regimen (3HR)\\*.\n\n\\*1HP= one month of daily isoniazid (H/INH) and rifapentine (P/RPT) 3HR= three months of daily isoniazid (H/INH) and rifampicin (R/RIF)",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT06281834",
+   "title": "Dolutegravir Pharmacokinetics During Weekly Rifapentine/Isoniazid for TB Prevention",
+   "phase": "PHASE1",
+   "status": "Recruiting",
+   "enrollment": 25,
+   "sponsor": "Brigham and Women's Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2024-11-15",
+   "end": "2027-06-01",
+   "conditions": [
+    "Pediatric HIV Infection",
+    "Latent Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Rifapentine"
+    },
+    {
+     "name": "Dolutegravir"
+    }
+   ],
+   "locations": [
+    "Ibadan, Nigeria"
+   ],
+   "summary": "Tuberculosis (TB) is the leading cause of death among children living with HIV, yet insufficient data are available on the pharmacokinetics of newer TB prevention strategies in children. Short-course TB prevention/latent TB infection (LTBI) treatment regimens increase completion rates but have not been adequately studied among children living with HIV. Our prospective, open-label PK study will examine and extend use of weekly rifapentine and isoniazid (3HP) among children receiving dolutegravir. This will address gaps in knowledge by examining two-way PK of short-course LTBI treatment in a vulnerable pediatric population.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT01498419",
+   "title": "Evaluation of 8 Weeks of Treatment With the Combination of Moxifloxacin, PA-824 and Pyrazinamide in Patients With Drug Sensitive and Multi Drug-Resistant Pulmonary Tuberculosis (TB) (NC-002)",
+   "phase": "PHASE2",
+   "status": "Completed",
+   "enrollment": 207,
+   "sponsor": "Global Alliance for TB Drug Development",
+   "studyType": "INTERVENTIONAL",
+   "start": "2012-03",
+   "end": "2013-07",
+   "conditions": [
+    "Pulmonary Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Moxifloxacin (M)"
+    },
+    {
+     "name": "Pretomid (Pa)"
+    },
+    {
+     "name": "Pyrazinamide (Z)"
+    },
+    {
+     "name": "Rifafour"
+    }
+   ],
+   "locations": [
+    "Cape Town, South Africa",
+    "Durban, South Africa",
+    "Johannesburg, South Africa",
+    "Klerksdorp, South Africa",
+    "Tembisa, South Africa",
+    "Bagamoyo, Tanzania",
+    "Mbeya, Tanzania"
+   ],
+   "summary": "The purpose of this study is to assess the mycobactericidal activity of the moxifloxacin plus PA-824 plus pyrazinamide regimen after 8 weeks of treatment.",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT03896750",
+   "title": "Single-Dose Study to Evaluate the PKs of Pretomanid in Participants With Renal Impairment Compared to Participants With Normal Renal Function",
+   "phase": "PHASE1",
+   "status": "Completed",
+   "enrollment": 12,
+   "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+   "studyType": "INTERVENTIONAL",
+   "start": "2024-04-17",
+   "end": "2024-10-28",
+   "conditions": [
+    "Renal Impairment",
+    "Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "PA-824",
+     "compoundId": "pretomanid",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "Miami, United States",
+    "St Louis, United States",
+    "Knoxville, United States"
+   ],
+   "summary": "This is a Phase 1, open-label, single-dose, sequential group study to compare the safety and pharmacokinetics (PK) of pretomanid in the following groups of participants: 1) participants with severe renal impairment including those with end stage renal disease (ESRD) not on dialysis, and participants with mild or moderate renal impairment, designated as Groups 2, 3, and 4, respectively; and 2) participants with normal renal function matched to the above renal impairment groups, designated as Groups 1A, 1B, and 1C, respectively.\n\nThe study will be conducted following a reduced PK study design in Part A. Part A will enroll participants from Group 1A (i.e., 6 healthy matched controls) and Group 2 (i.e., 6 participants with severe renal impairment and ESRD, not on dialysis). A decision to proceed to Part B will be made after the PK of pretomanid, and safety in participants enrolled in Part A have been reviewed. If Part A demonstrates at least a 50% increase in pretomanid area under the plasma concentration-time curve (AUC) in Group 2 (severe renal impairments and ESRD, not on dialysis) relative to the exposures in Group 1A (matched participants with normal renal function), then the reduced PK study will extend to the full PK study to enroll participants into Part B (i.e., to investigate mild and moderate renal impairment). All Part B groups (1B, 1C, 3, and 4) will be enrolled concurrently.\n\nIf the reduced PK study shows at least a 50% increase in AUC in patients with severe renal impairment and patients with ESRD not yet on dialysis relative to the matched healthy controls, a \"full PK\" renal impairment study in patients with all intermediate levels of renal function impairment should be conducted. Otherwise, no further study is recommended.\n\nThe approximate patient involvement will be 3 months. The primary objective is to evaluate the PK profiles of pretomanid in plasma and urine after a single oral dose of 200 mg in participants with renal impairment compared to matched healthy controls.",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT03338621",
+   "title": "Trial to Evaluate the Efficacy, Safety and Tolerability of BPaMZ in Drug-Sensitive (DS-TB) Adult Patients and Drug-Resistant (DR-TB) Adult Patients",
+   "phase": "PHASE2 / PHASE3",
+   "status": "Completed",
+   "enrollment": 455,
+   "sponsor": "Global Alliance for TB Drug Development",
+   "studyType": "INTERVENTIONAL",
+   "start": "2018-07-30",
+   "end": "2022-06-10",
+   "conditions": [
+    "Tuberculosis, Pulmonary",
+    "Tuberculosis, Multidrug-Resistant",
+    "Tuberculosis, MDR",
+    "Tuberculosis",
+    "Drug-Resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Pretomanid",
+     "compoundId": "pretomanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Moxifloxacin"
+    },
+    {
+     "name": "Pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    },
+    {
+     "name": "HRZE"
+    },
+    {
+     "name": "HR"
+    }
+   ],
+   "locations": [
+    "Rio de Janeiro, Brazil",
+    "Tbilisi, Georgia",
+    "Kuala Lumpur, Malaysia",
+    "Manila, Philippines",
+    "Moscow, Russia",
+    "Saint Petersburg, Russia",
+    "Yekaterinburg, Russia",
+    "Pietermaritzburg, South Africa",
+    "Brits, South Africa",
+    "Cape Town, South Africa"
+   ],
+   "summary": "To evaluate the efficacy, safety and tolerability at 8 weeks (2-months), 52 weeks (12-months), and 104 Weeks (24-months) post the start of the following treatment regimens in participants with: Drug Sensitive TB (DS-TB) patients given BPaMZ for 17 Weeks ( or 4 months) vs. Standard HRZE/HR treatment given for 26 weeks (or 6 months) and Drug Resistant TB (DR-TB) patients given BPaMZ for 26 Weeks (or 6 months)",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT05381194",
+   "title": "BPaL(M) Regimen for the Treatment of MDR/RR-TB",
+   "phase": "PHASE4",
+   "status": "Recruiting",
+   "enrollment": 80,
+   "sponsor": "Asan Medical Center",
+   "studyType": "INTERVENTIONAL",
+   "start": "2022-12-13",
+   "end": "2027-12",
+   "conditions": [
+    "Multidrug- and Rifampicin-resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "BPaL(M) regimen"
+    }
+   ],
+   "locations": [
+    "Seoul, South Korea"
+   ],
+   "summary": "The objective of this study is to analyze the efficacy of a new regimen using Bedaquiline, Pretomanid, Linezolid, and Moxifloxacin for 24 weeks or Bedaquiline, Pretomanid, Linezolid for 26 weeks for the treatment of MDR/RR-TB through the clinical trial.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT05586230",
+   "title": "Study of a Single Dose of Pretomanid Added to an Optimized Background Regimen in Children With Rifampicin-Resistant Tuberculosis",
+   "phase": "PHASE1",
+   "status": "Completed",
+   "enrollment": 32,
+   "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+   "studyType": "INTERVENTIONAL",
+   "start": "2023-10-03",
+   "end": "2026-04-28",
+   "conditions": [
+    "Tuberculosis",
+    "Rifampicin Resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Pretomanid",
+     "compoundId": "pretomanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Optimized background regimen (OBR) for multidrug-resistant TB (MDR-TB)"
+    }
+   ],
+   "locations": [
+    "Rio de Janeiro, Brazil",
+    "Klerksdorp, South Africa",
+    "Cape Town, South Africa",
+    "Johannesburg, South Africa",
+    "Bangkok Noi, Thailand"
+   ],
+   "summary": "The purpose of the study is to evaluate the pharmacokinetics (PK), safety, tolerability, and acceptability of a single dose of pretomanid, added to an optimized background tuberculosis treatment regimen (OBR), in children with rifampicin-resistant tuberculosis (RR-TB) with or without human immunodeficiency virus (HIV).",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT02589782",
+   "title": "Pragmatic Clinical Trial for a More Effective Concise and Less Toxic MDR-TB Treatment Regimen(s)",
+   "phase": "PHASE2 / PHASE3",
+   "status": "Completed",
+   "enrollment": 552,
+   "sponsor": "Medecins Sans Frontieres, Netherlands",
+   "studyType": "INTERVENTIONAL",
+   "start": "2017-01",
+   "end": "2022-08-05",
+   "conditions": [
+    "Tuberculosis, Multidrug-Resistant",
+    "Extensively Drug-Resistant Tuberculosis",
+    "Tuberculosis, Pulmonary"
+   ],
+   "interventions": [
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Pretomanid",
+     "compoundId": "pretomanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Moxifloxacin"
+    },
+    {
+     "name": "Linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Clofazimine",
+     "compoundId": "clofazimine",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Locally accepted standard of care which is consistent with the WHO recommendations for the treatment of M/XDR-TB."
+    }
+   ],
+   "locations": [
+    "Minsk, Belarus",
+    "Johannesburg, South Africa",
+    "Durban, South Africa",
+    "Pietermaritzburg, South Africa",
+    "Nukus, Uzbekistan",
+    "Tashkent, Uzbekistan"
+   ],
+   "summary": "TB PRACTECAL is a multi-centre, open label, multi-arm, randomised, controlled, phase II-III trial; evaluating short treatment regimens containing bedaquiline and pretomanid in combination with existing and re-purposed anti-TB drugs for the treatment of biologically confirmed pulmonary multi drug-resistant TB (MDR-TB).",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT02619994",
+   "title": "Treatment Shortening of MDR-TB Using Existing and New Drugs",
+   "phase": "PHASE2",
+   "status": "Completed",
+   "enrollment": 214,
+   "sponsor": "Seoul National University Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2016-01",
+   "end": "2021-06",
+   "conditions": [
+    "Tuberculosis, Multidrug-Resistant"
+   ],
+   "interventions": [
+    {
+     "name": "Linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Delamanid",
+     "compoundId": "delamanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Levofloxacin"
+    },
+    {
+     "name": "Pyrazinamide",
+     "compoundId": "pyrazinamide",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Locally-used WHO-approved MDR-TB regimen in Korea"
+    }
+   ],
+   "locations": [
+    "Seoul, South Korea"
+   ],
+   "summary": "The purpose of this study is to compare the efficacy of a 'new treatment regimen including delamanid, linezolid, levofloxacin, and pyrazinamide for nine or twelve months (investigational arm)' and 'the standard treatment regimen including injectables for 20 to 24 months (control arm)' for treating fluoroquinolone-sensitive multidrug-resistant tuberculosis.",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT01859923",
+   "title": "A 6-Month Safety, Efficacy, and Pharmacokinetic (PK) Trial of Delamanid in Pediatric Participants With Multidrug Resistant Tuberculosis (MDR-TB)",
+   "phase": "PHASE2",
+   "status": "Completed",
+   "enrollment": 37,
+   "sponsor": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+   "studyType": "INTERVENTIONAL",
+   "start": "2013-07-20",
+   "end": "2020-01-13",
+   "conditions": [
+    "Multidrug Resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Delamanid",
+     "compoundId": "delamanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Delamanid Pediatric Formulation (DPF)"
+    },
+    {
+     "name": "Optimized Background Regimen (OBR)"
+    }
+   ],
+   "locations": [
+    "Dasmariñas, Philippines",
+    "Quezon City, Philippines",
+    "Ysterplaat, South Africa"
+   ],
+   "summary": "The purpose of this trial is to assess the safety, tolerability, pharmacokinetics, and efficacy of long-term (6-month) treatment with delamanid plus an optimized background regimen (OBR) of other anti-tuberculosis drugs in pediatric participants who completed Study 242-12-232 (NCT01856634).",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT07675954",
+   "title": "A 6-Month MDR-END Plus Regimen for Rifampicin-Resistant Tuberculosis",
+   "phase": "PHASE3",
+   "status": "Not yet recruiting",
+   "enrollment": 294,
+   "sponsor": "Seoul National University Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2026-10-01",
+   "end": "2032-06",
+   "conditions": [
+    "Rifampicin-Resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "MDR-END Plus regimen"
+    },
+    {
+     "name": "Standard-of-care (SoC) treatment"
+    }
+   ],
+   "locations": [
+    "Klerksdorp, South Africa",
+    "Cape Town, South Africa"
+   ],
+   "summary": "This is a phase 3, open-label, randomized clinical trial in adults and adolescents aged 15 years or older who need treatment for rifampicin-resistant tuberculosis in South Africa.\n\nThe goal of this clinical trial is to learn whether a 6-month MDR-END Plus regimen works as well as current standard of care (SoC) treatment for rifampicin-resistant tuberculosis. The trial will also learn whether the MDR-END Plus regimen is safer and easier to tolerate than SoC regimens.\n\nThe main questions this trial aims to answer are:\n\n* Does the MDR-END Plus regimen lead to a favorable treatment outcome 12 months after treatment is stopped, compared with SoC regimens?\n* Do participants receiving the MDR-END Plus regimen have fewer important safety or tolerability problems during treatment and up to 90 days after treatment is stopped, compared with SoC regimens?\n\nResearchers will compare the MDR-END Plus regimen with South African standard of care (SoC) treatment for rifampicin-resistant tuberculosis.\n\nParticipants will:\n\n* Be randomly assigned to receive either the MDR-END Plus regimen or SoC treatment.\n* Take tuberculosis medicines for about 6 months, although treatment may be extended in some cases.\n* Attend study visits during treatment and after treatment is stopped.\n* Have clinical assessments, blood tests, heart tracing tests, vision and nerve assessments, and tuberculosis tests.\n* Be followed for 12 months after treatment is stopped.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT05221502",
+   "title": "Safety and Efficacy Evaluation of 4-month Regimen of OPC-167832, Delamanid and Bedaquiline in Participants With Drug-Susceptible Pulmonary TB",
+   "phase": "PHASE2",
+   "status": "Completed",
+   "enrollment": 122,
+   "sponsor": "Otsuka Pharmaceutical Development & Commercialization, Inc.",
+   "studyType": "INTERVENTIONAL",
+   "start": "2022-04-12",
+   "end": "2024-05-19",
+   "conditions": [
+    "Pulmonary TB"
+   ],
+   "interventions": [
+    {
+     "name": "Delamanid",
+     "compoundId": "delamanid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Bedaquiline",
+     "compoundId": "bedaquiline",
+     "matchConfidence": 1
+    },
+    {
+     "name": "RHEZ"
+    },
+    {
+     "name": "Rifampin",
+     "compoundId": "rifampin",
+     "matchConfidence": 1
+    },
+    {
+     "name": "Isoniazid",
+     "compoundId": "isoniazid",
+     "matchConfidence": 1
+    },
+    {
+     "name": "OPC-167832 10 mg"
+    },
+    {
+     "name": "OPC-167832 30 mg"
+    },
+    {
+     "name": "OPC-167832 90 mg"
+    }
+   ],
+   "locations": [
+    "Tembisa, South Africa",
+    "Cape Town, South Africa",
+    "Johannesburg, South Africa",
+    "Klerksdorp, South Africa",
+    "Pretoria, South Africa"
+   ],
+   "summary": "This trial will assess the safety and efficacy of OPC-167832 combined with delamanid and bedaquiline in participants with drug-susceptible tuberculosis (DS-TB) administered for 17 weeks compared to rifampin, isoniazid, ethambutol, pyrazinamide (RHEZ) administered for 26 weeks.",
+   "resultsAvailable": true
+  },
+  {
+   "nctId": "NCT03220074",
+   "title": "Linezolid for Treatment of Nontuberculous Mycobacterial Diseases",
+   "phase": "PHASE4",
+   "status": "Completed",
+   "enrollment": 40,
+   "sponsor": "Mahidol University",
+   "studyType": "INTERVENTIONAL",
+   "start": "2017-12-15",
+   "end": "2022-06-15",
+   "conditions": [
+    "Non-tuberculous Mycobacterial Infections"
+   ],
+   "interventions": [
+    {
+     "name": "Oral Tablet"
+    }
+   ],
+   "locations": [
+    "Bangkoknoi, Thailand"
+   ],
+   "summary": "A prospective open study to determine the efficacy and tolerability of oral linezolid 600mg./day for the treatment of 40 patients with nontuberculous mycobacterial diseases will be conducted at Siriraj Hospital, Mahidol University, Bangkok, Thailand.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT05534750",
+   "title": "Evaluation of the Early Bactericidal Activity of Tedizolid and Linezolide Against Mycobacterium Tuberculosis (TEDITUB)",
+   "phase": "PHASE2",
+   "status": "Recruiting",
+   "enrollment": 60,
+   "sponsor": "Assistance Publique - Hôpitaux de Paris",
+   "studyType": "INTERVENTIONAL",
+   "start": "2023-04-20",
+   "end": "2026-05",
+   "conditions": [
+    "Tuberculosis",
+    "Multidrug Resistant Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "Tedizolid arm (SIVEXTRO®)"
+    },
+    {
+     "name": "Linezolid arm (ZYVOXID®)"
+    },
+    {
+     "name": "Standard quadruple therapy arm"
+    }
+   ],
+   "locations": [
+    "Paris, France"
+   ],
+   "summary": "The objective of this work is to measure the early bactericidal activity of tedizolid, to compare it with the bactericidal activity of linezolid (reference molecule for the treatment of multidrug-resistant tuberculosis) and with that of standard quadruple therapy (reference treatment of drug susceptible tuberculosis).",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT03537495",
+   "title": "Pharmacokinetic Study of Linezolid for TB Meningitis",
+   "phase": "PHASE2",
+   "status": "Completed",
+   "enrollment": 36,
+   "sponsor": "Universitas Padjadjaran",
+   "studyType": "INTERVENTIONAL",
+   "start": "2021-06-21",
+   "end": "2023-07-20",
+   "conditions": [
+    "Tuberculosis, Meningeal",
+    "Linezolid"
+   ],
+   "interventions": [
+    {
+     "name": "Linezolid",
+     "compoundId": "linezolid",
+     "matchConfidence": 1
+    }
+   ],
+   "locations": [
+    "Bandung, Indonesia"
+   ],
+   "summary": "Tuberculosis meningitis (TBM) is the most severe manifestation of TB, resulting in death or neurological disability in up to 50% of affected patients, despite antibacterial treatment. This TBM treatment follows the model for pulmonary TB by using the same first-line TB drugs (a combination of rifampicin, isoniazid, pyrazinamide and ethambutol) and the same dosing guidelines, although it is known that penetration of two of these drugs (rifampicin and ethambutol) into cerebrospinal fluid (CSF) is limited. Improvement of treatment of TBM is urgently needed.\n\nTo do so, a combination of two interventions will be investigated in this study. A series of phase II clinical trials on higher doses of the pivotal TB drug rifampicin in Indonesian patients with TBM have shown that the dose of rifampicin can be increased from 10 mg/kg orally (standard dose) up to 30 mg/kg orally, resulting in a strong increase in exposure to this drug in plasma and CSF, no increase in grade III or IV adverse effects, and a reduction in mortality. Similarly, higher doses of rifampicin up to 35 mg/kg resulted in strong increases in plasma concentrations; the doses were well tolerated and reduced time to sputum conversion in African pulmonary TB patients.\n\nNext to a higher dose of rifampicin, the approved antibacterial drug linezolid seems a good candidate for a new TBM regimen. The drug penetrates well into the CSF and is applied successfully against other central nervous system (CNS) infections (e.g. caused by penicillin-nonsusceptible Streptococcus pneumoniae, vancomycin-resistant enterococci and methicillin-resistant Staphylococcus aureus). In a study in China, linezolid in a dose of 600 mg BID orally strongly increased recovery of patients with TBM response. Linezolid is also being investigated as a new drug for (drug-resistant) pulmonary TB in numerous studies, in a dose of 1200 mg once daily. More severe adverse effects to this drug typically occur only after prolonged treatment during several months, not during short-term treatment.\n\nOverall, linezolid is expected to be a promising and tolerable candidate for a new intensified TBM treatment regimen consisting of a backbone of high dose rifampicin plus linezolid.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT06811025",
+   "title": "Phase II Clinical Study of Contezolid for the Treatment of Tuberculous Meningitis",
+   "phase": "PHASE1 / PHASE2",
+   "status": "Enrolling by invitation",
+   "enrollment": 24,
+   "sponsor": "Beijing Chest Hospital",
+   "studyType": "INTERVENTIONAL",
+   "start": "2024-02-01",
+   "end": "2025-12-31",
+   "conditions": [
+    "Tuberculosis",
+    "Meningitis"
+   ],
+   "interventions": [
+    {
+     "name": "Contezolid"
+    },
+    {
+     "name": "Linezolid (LZD)"
+    }
+   ],
+   "locations": [
+    "Beijing, China"
+   ],
+   "summary": "Contezolid is a novel oxazolidinone antibiotic developed by Shanghai Mengke Pharmaceutical Co., Ltd., which successfully went public in 2021. It inhibits bacterial growth by interfering with protein synthesis through its translational inhibitory effect on bacteria. Contezolid has demonstrated promising clinical results in patients with drug-resistant tuberculosis, making it a powerful tool in the fight against drug-resistant tuberculosis.\n\nCurrently, there is a lack of pharmacokinetic data on contezolid in patients with central nervous system tuberculosis. Some studies have reported the steady-state concentrations of contezolid in the serum and cerebrospinal fluid (CSF) of tuberculous meningitis patients receiving multidrug therapy, showing that the concentration of contezolid in the CSF exceeds the minimum inhibitory concentration against Mycobacterium tuberculosis, and the unbound fraction has a high penetration rate.\n\nIn summary, as a novel anti-tuberculosis drug, contezolid has significant potential value in the treatment of tuberculous meningitis. The implementation of this project will help further explore the application prospects of contezolid in the treatment of tuberculous meningitis and provide a safer and more effective treatment option for clinical use.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT02231229",
+   "title": "Rapid Detection of Rifampin and Isoniazid Resistance by PCR Before Tuberculosis (TB) Treatment Initiation",
+   "phase": "PHASE4",
+   "status": "Completed",
+   "enrollment": 204,
+   "sponsor": "Assistance Publique - Hôpitaux de Paris",
+   "studyType": "INTERVENTIONAL",
+   "start": "2014-07-23",
+   "end": "2020-02-18",
+   "conditions": [
+    "Tuberculosis"
+   ],
+   "interventions": [
+    {
+     "name": "PCR-based strategy"
+    },
+    {
+     "name": "conventional therapy"
+    }
+   ],
+   "locations": [
+    "Paris, France"
+   ],
+   "summary": "French guidelines currently recommend to initiate a 4-drug containing regimen associating isoniazid (INH or H), rifampicin (RIFor RMP or R), pyrazinamide (PZA or Z) and ethambutol (EMB or E) pending the results of drug susceptibility testing (DST). The rationale behind routine use of EMB is to prevent the emergence of resistance to rifampicin (RMP), in case of primary resistance to INH. Hence, early detection of resistance to INH and RIF using molecular testing in Mycobacterium tuberculosis could allow early adaptation of antituberculosis treatment: i) start with a 3-drug containing regimen (i.e. INH, RIF, and PZA); ii) early enforcement of treatment when resistance is suspected, pending in depth susceptibility testings.\n\nthe duration of treatment is 6 months or 12 months.",
+   "resultsAvailable": false
+  },
+  {
+   "nctId": "NCT02153528",
+   "title": "Optimization of the TB Treatment Regimen Cascade",
+   "phase": "PHASE3",
+   "status": "Completed",
+   "enrollment": 701,
+   "sponsor": "Damien Foundation",
+   "studyType": "INTERVENTIONAL",
+   "start": "2014-11",
+   "end": "2017-08-01",
+   "conditions": [
+    "Tuberculosis, Pulmonary"
+   ],
+   "interventions": [
+    {
+     "name": "double rimfampicin"
+    },
+    {
+     "name": "Standard TB treatment"
+    }
+   ],
+   "locations": [
+    "Dhaka, Bangladesh"
+   ],
+   "summary": "\\- Hypothesis: Double dose rifampicin together with earlier monitoring of sputum conversion using vital staining reduces unfavorable outcome of Cat. 1 first-line TB treatment without excess serious toxicity, and allows early switch to specific treatment of MDR-TB without using Cat. 2 retreatment regimen\n\n\\- General study design: This open label, randomised clinical trial is intended as a pilot study on the efficacy and safety of high-dose rifampicin and feasibility and added value of auramine and/or FDA vital staining sputum smear after 2 weeks of intensive treatment phase. If this proof-of-concept study provides substantial indication of benefit without indication of excess toxicity, the data from the study will be used to design a larger scale, cluster-randomized study. The aim of this cluster randomised study would be to provide definite proof of the benefit of the intervention on adverse treatment outcomes and lack of excess toxicity associated with high dose rifampicin. In addition, the cluster-randomized study would provide a more precise assessment of the suppression and prevention of (acquired) resistance endpoints.\n\nAn interim analysis is thus planned at the time the last recruited patient finishes treatment, i.e. about 9 months after the end of recruitment. It will focus on assessment of drug toxicity versus suggested benefits of the intervention. This analysis will be primarily performed for the go/no-go decision and design considerations for the cluster-randomized trial. The decision on proceeding to the cluster randomized study will be based on the absence of excess toxicity, a trend toward a reduction of unfavourable outcomes (excluding relapse), and possible favourable effects on initially present low-resistance mutations / mutations acquired during treatment. It will also allow to adapt the design of the larger study particularly regarding the algorithm for resistance screening, and whether or not treatment shortening could be justified with rapid initial conversion.",
+   "resultsAvailable": true
+  }
+ ]
+}
